@@ -5,6 +5,9 @@ import org.telegram.telegrambots.meta.api.methods.send.SendMessage;
 import org.telegram.telegrambots.meta.api.objects.Update;
 import org.telegram.telegrambots.meta.exceptions.TelegramApiException;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class KiboBot extends TelegramLongPollingBot {
 
     @Override
@@ -15,14 +18,25 @@ public class KiboBot extends TelegramLongPollingBot {
             // Set variables
             String message_text = update.getMessage().getText();
             long chat_id = update.getMessage().getChatId();
+            if (update.getMessage().getText().equals("/start")) {
 
-            SendMessage message = new SendMessage() // Create a message object object
-                    .setChatId(chat_id)
-                    .setText(message_text);
-            try {
-                execute(message); // Sending our message object to user
-            } catch (TelegramApiException e) {
-                e.printStackTrace();
+                List<SendMessage> messages = new ArrayList<>();
+
+                SendMessage message = new SendMessage() // Create a message object object
+                        .setChatId(chat_id)
+                        .setText("Bienvendio a Kibo bot");
+                SendMessage message2 = new SendMessage() // Create a message object object
+                        .setChatId(chat_id)
+                        .setText("Isla desierta");
+                messages.add(message);
+                messages.add(message2);
+                try {
+                    for (int i = 0; i < messages.size(); i++) {
+                        execute(messages.get(i)); // Sending our message object to user
+                    }
+                } catch (TelegramApiException e) {
+                    e.printStackTrace();
+                }
             }
         }
     }
