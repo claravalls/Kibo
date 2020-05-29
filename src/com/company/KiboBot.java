@@ -1,8 +1,10 @@
 package com.company;
 
 import com.company.Messages.Intro;
+import com.vdurmont.emoji.EmojiParser;
 import org.telegram.telegrambots.bots.TelegramLongPollingBot;
 import org.telegram.telegrambots.meta.api.methods.send.SendMessage;
+import org.telegram.telegrambots.meta.api.methods.send.SendPhoto;
 import org.telegram.telegrambots.meta.api.objects.Update;
 import org.telegram.telegrambots.meta.exceptions.TelegramApiException;
 
@@ -18,6 +20,16 @@ public class KiboBot extends TelegramLongPollingBot {
             // Set variables
             String message_text = update.getMessage().getText();
             long chat_id = update.getMessage().getChatId();
+            //Per fer el emote
+            //String answer = EmojiParser.parseToUnicode("Bienvenido a Kibo bot :smile:");
+            //SendMessage message = new SendMessage() // Create a message object object
+            //            .setChatId(chat_id)
+            //            .setText(answer);
+            //PER FER FOTO
+            // SendPhoto msg = new SendPhoto()
+            //            .setChatId(chat_id)
+            //            .setPhoto("AgADAgAD6qcxGwnPsUgOp7-MvnQ8GecvSw0ABGvTl7ObQNPNX7UEAAEC")
+            //            .setCaption("Photo");
             if (update.getMessage().getText().equals("/start")) {
                 Intro intro = new Intro();
                 List<SendMessage> messages = intro.showIntro(chat_id);
@@ -31,7 +43,6 @@ public class KiboBot extends TelegramLongPollingBot {
             }
         }
     }
-
 
     @Override
     public String getBotUsername() {
