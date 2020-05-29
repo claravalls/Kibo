@@ -10,11 +10,6 @@ import java.io.FileNotFoundException;
 public class Main {
 
     public static void main(String[] args) {
-        try {
-            Historia illaDeserta = new Historia("/src/files/missatges.json");
-        } catch (FileNotFoundException e) {
-            e.printStackTrace();
-        }
         ApiContextInitializer.init();
         TelegramBotsApi botsApi = new TelegramBotsApi();
         try {
