@@ -5,10 +5,16 @@ import org.telegram.telegrambots.ApiContextInitializer;
 import org.telegram.telegrambots.meta.TelegramBotsApi;
 import org.telegram.telegrambots.meta.exceptions.TelegramApiException;
 
+import java.io.FileNotFoundException;
+
 public class Main {
 
     public static void main(String[] args) {
-        Historia illaDeserta = new Historia("/src/files/missatges.json");
+        try {
+            Historia illaDeserta = new Historia("/src/files/missatges.json");
+        } catch (FileNotFoundException e) {
+            e.printStackTrace();
+        }
         ApiContextInitializer.init();
         TelegramBotsApi botsApi = new TelegramBotsApi();
         try {

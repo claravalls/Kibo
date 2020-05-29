@@ -1,12 +1,24 @@
 package com.company.Messages;
 
+import com.google.gson.Gson;
+import com.google.gson.stream.JsonReader;
+
+import java.io.File;
+import java.io.FileNotFoundException;
+import java.io.FileReader;
 import java.util.List;
 
 public class Historia {
     private int id;
     private List<Missatge> missatges;
 
-    public Historia(String fitxer) {
+    public Historia(String fitxer) throws FileNotFoundException {
+        String f = new File("").getAbsolutePath();
+        Gson gson = new Gson();
+
+        JsonReader reader = new JsonReader(new FileReader(f.concat(fitxer)));
+        Historia h = gson.fromJson(reader, Historia.class);
+        this.missatges = h.missatges;
     }
 
     public int getId() {

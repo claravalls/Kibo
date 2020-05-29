@@ -1,0 +1,153 @@
+{
+  "missatges":[
+    {
+      "id": 0,
+      "text": [
+        "Hola?",
+        "Estàs bé?",
+        "Pensava que no sobreviuries.",
+        "No! Espera! No t'aixequis tan de pressa.",
+        "T'has empassat molta aigua.",
+        "\nQuan vaig veure que el mar feia desapareixer el teu vaixell entre aquella terrible tempesta...",
+        "Però l'endemà al matí vas aparèixer flotant a la costa. Has tingut molta sort.",
+        "\nEm dic Kibo. Sóc un lloro, però no un lloro qualsevol. Ja ho aniràs veient.",
+        "\nEstàs a una illa molt petita que no apareix ni als mapes. Jo t'aniré guiant per ajudar-te a sobreviure. Però tot depèn de tu.",
+        "\nLes eleccions que facis decidiran si sobrevius o mors. Així que pensa bé abans de respondre.",
+        "\nQuè vols fer primer: explorar l'illa(0) o anar a buscar recursos?(1)\n"
+      ],
+      "seguent": [
+        1,
+        40
+      ],
+      "end": false
+    },
+    {
+      "id": 1,
+      "text": [
+        "Perfecte, doncs comencem explorant l'illa.",
+        "Si anem cap a l'oest ens endinsarem a la selva. Si seguim cap al nord podrem vorejar la costa.",
+        "\nQuè prefereixes: explorar la selva(0) o explorar la costa?(1)\n"
+      ],
+      "seguent": [
+        2,
+        30
+      ],
+      "end": false
+    },
+    {
+      "id": 2,
+      "text": [
+        "Ens endinsem a la selva. És molt espessa.",
+        "\nSe senten molts sorolls d'animals. Hauràs d'anar en compte perquè alguns són molt perillosos.",
+        "\nSi t'hi fixes bé es pot sentir el soroll d'aigua corrent. Deu haver-hi un riu a prop.",
+        "Espera.",
+        "Què és això? Se sent una música de tambors. Què deu ser?",
+        "\nQuè prefereixes: descobrir d'on ve la música(0) o buscar el riu?(1)\n"
+      ],
+      "seguent": [
+        3,
+        23
+      ],
+      "end": false
+    },
+    {
+      "id": 3,
+      "text": [
+        "Seguim el so de la música.",
+        "Espera. Amaguem-nos darrera d'aquests arbustos. Crec que ja sé què és aquest so.",
+        "\nMira allà:",
+        "és la tribu indígena de l'illa. Estan celebrant una de les seves ceremònies al voltant del foc.",
+        "Són una tribu pacífica, però molt tradicionals. \nTenen unes creences molt fortes, així que és millor no ofendre'ls.",
+        "\nEstan fent una ofrena a un dels seus Déus, mira, per això tenen aquell tros de carn coent-se al foc.",
+        "\nQuè vols fer: ens hi acostem(0) o seguim explorant la selva?(1)\n"
+      ],
+      "seguent": [
+        4,
+        23
+      ],
+      "end": false
+    },
+    {
+      "id": 4,
+      "text": [
+        "Ens han vist.",
+        "Camina amb seguretat i mira'ls als ulls quan et parlin. Ara ja no ens podem fer enrera.",
+        "\nAquest és el Shaka, el cap de la tribu. S'agenolla davant teu i t'entrega una cuixa cuita.",
+        "Mmmm...",
+        "Fa molt bona olor.",
+        "\nAgafa-la abans que s'ofengui.",
+        "\nQuè faràs amb ella: li fas una queixalada(0) o la llences al terra?(1)\n"
+      ],
+      "seguent": [
+        5,
+        6
+      ],
+      "end": false
+    },
+    {
+      "id": 5,
+      "text": [
+        "Està realment molt bona!",
+        "\nQuan el Shaka s'aixeca i veu que t'estas menjant la cuixa que t'ha ofert fa un crit i tres membres de la tribu t'apunten amb la seva llança.",
+        "\nEm sembla que els has ofès...",
+        "Els membres de la tribu indígena d'aquesta illa són tots vegetarians per tradició.",
+        "\nConsideren la carn un regal massa preuat, i la reserven pels Deus, per això estaven fent una ceremònia on els hi entregaven les seves ofrenenes.",
+        "\nEls membres de la tribu t'agafen i el lliguen amb molta força.",
+        "\nJa no hi ha escapatòria. Em sembla que tu seràs la seva pròxima ofrena als seus Déus...\n"
+      ],
+      "seguent": [],
+      "end": true
+    },
+    {
+      "id": 6,
+      "text": [
+        "Agafes la costella de carn i la llances contra el terra.",
+        "\nEl Shaka s'aixeca i fa un crit. De cop tots els membres de la tribu l'imiten i comencen a ballar al teu voltant",
+        "\nEls membres de la tribu indígena d'aquesta illa són tots vegetarians per tradició.",
+        "\nConsideren la carn un regal massa preuat, i la reserven pels Deus, per això estaven fent una ceremònia on els hi entregaven les seves ofrenenes.",
+        "Ara ja ets un d'ells. Alguns comencen a ballar al voltant del foc mentre uns altres seuen i els animen.",
+        "\nQuè fas: t'uneixes al ball(0) o seus i els mires?(1)\n"
+      ],
+      "seguent":
+        [7, 20],
+      "end": false
+    },
+    {
+      "id": 7,
+      "text": [
+        "Balles amb ells al voltant del foc mentre intentes imitar els seus moviments!",
+        "\nUn va fent crits i tots els altres el repeteixen. Tu t'uneixes als seus crits. Em sembla que t'han acceptat molt bé.",
+        "\nUn dels membres més ancians treu un bol amb un líquid verd. Se'l van passant d'un a l'altre i tots hi fan un glop. Fins i tot els nens.",
+        "\nQuan arriba a tu, l'olores. Fa una olor molt forta! Fins i tot et ploren els ulls.",
+        "\nQuè decideixes: fer-hi un glop com tots els altres(0) o fer veure que beus i passar-li el bol al següent?(1)\n"
+      ],
+      "seguent": [8, 17],
+      "end": false
+    },
+    {
+      "id": 8,
+      "text": [
+        "Fas un glop del líquid pestilent i li passes al seguent.",
+        "\nNotes com et baixa pel coll, i de cop comences a veure-hi borrós. Et fa mal el cap i et costa aguantar-te dret.",
+        "\nEls indígenes tenen tradicions ben estranyes eh!",
+        "\nIntenta no adormir-te! INTENTA NO ADORMIR-TE!",
+        ".",
+        ".",
+        ".",
+        "\nEi!",
+        "Per fi et despertes\n",
+        "Ahir va ser una nit mogudeta eh...",
+        "No recordes res?",
+        "\nBé, a vegades és millor no recordar depen què.",
+        "\nEstàs dins una de les tendes del campament. Ahir van haver de portar-te entre uns quants perquè no podies ni moure't.",
+        "\nAquestes pocions que es veuen els indígenes són molt fortes.",
+        "Ai! D'on surt aquesta sang?",
+        "Tens una ferida al cap. Hauries de dir-li al Shaka perquè si no te la cures aviat podries morir desagnat.",
+        "\nEl Shaka et diu que vagis a veure al bruixot de la tribu. Fa servir tècniques de medicina occidental molt espirituals",
+        "Què decideixes: fer-li cas al Shaka i anar a veure el bruixot(0) o intentes curar-te-la tu mateix?(1)\n"
+      ],
+      "seguent": [9, 12],
+      "end": false
+    }
+  ]
+}
