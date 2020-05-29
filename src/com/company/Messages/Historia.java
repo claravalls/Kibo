@@ -6,6 +6,9 @@ public class Historia {
     private int id;
     private List<Missatge> missatges;
 
+    public Historia(String fitxer) {
+    }
+
     public int getId() {
         return id;
     }
