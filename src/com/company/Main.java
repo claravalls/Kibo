@@ -7,7 +7,7 @@ import org.telegram.telegrambots.meta.exceptions.TelegramApiException;
 public class Main {
 
     public static void main(String[] args) {
-
+        Historia illaDeserta = new Historia("/src/files/missatges.json");
         ApiContextInitializer.init();
         TelegramBotsApi botsApi = new TelegramBotsApi();
         try {
