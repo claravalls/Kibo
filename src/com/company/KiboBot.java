@@ -127,6 +127,10 @@ public class KiboBot extends TelegramLongPollingBot {
             else
                 return false;
         }
+        if(historia.getMissatges().get(last_mess).getSeguent().size() == 1){ //ha arribat a un final
+            last_mess = historia.getMissatges().get(last_mess).getSeguent().get(0);
+            messages = messagesManager.showMessage(chat_id, historia.getMissatges().get(last_mess).getText());
+        }
         if(historia.getMissatges().get(last_mess).isEnd()){ //ha arribat a un final
             last_mess= -1;
             messages.addAll(messagesManager.showFinalMessage(chat_id));

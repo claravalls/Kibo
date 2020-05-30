@@ -76,12 +76,14 @@
       "id": 4,
       "text": [
         "Seguim el so de la música.",
-        "Espera. Amaguem-nos darrera d'aquests arbustos. Crec que ja sé què és aquest so.",
-        "Mira allà:",
-        "és la tribu indígena de l'illa. Estan celebrant una de les seves ceremònies al voltant del foc.",
-        "Són una tribu pacífica, però molt tradicionals. \nTenen unes creences molt fortes, així que és millor no ofendre'ls.",
-        "Estan fent una ofrena a un dels seus Déus, mira, per això tenen aquell tros de carn coent-se al foc.",
-        "Què vols fer: ens acostem a la tribu o seguim explorant la selva?\n"
+        "Espera. Amaguem-nos darrera d'aquests arbustos.",
+        "Crec que ja sé què és aquest so.",
+        "Mira allà!",
+        "És la tribu indígena de l'illa.",
+        "Estan celebrant una de les seves ceremònies al voltant del foc.",
+        "Són una tribu pacífica, però molt tradicionals.",
+        "Tenen unes creences molt fortes, així que és millor no ofendre'ls.",
+        "Estan fent una ofrena a un dels seus Déus, mira, per això tenen aquell tros de carn coent-se al foc. Què vols fer: ens acostem a la tribu o seguim explorant la selva?\n"
       ],
       "seguent": [
         5,
@@ -97,12 +99,14 @@
       "id": 5,
       "text": [
         "Ens han vist.",
-        "Camina amb seguretat i mira'ls als ulls quan et parlin. Ara ja no ens podem fer enrera.",
-        "Aquest és el Shaka, el cap de la tribu. S'agenolla davant teu i t'entrega una cuixa cuita.",
+        "Camina amb seguretat i mira'ls als ulls quan et parlin.",
+        "Ara ja no ens podem fer enrera.",
+        "Aquest és el Shaka, el cap de la tribu.",
+        "S'agenolla davant teu i t'entrega una cuixa cuita.",
         "Mmmm...",
         "Fa molt bona olor.",
         "Agafa-la abans que s'ofengui.",
-        "Què faràs amb ella: li fas una queixalada o la llences al terra?\n"
+        "Què faràs amb ella: li fas una queixalada o la llances al terra?"
       ],
       "seguent": [
         6,
@@ -110,7 +114,7 @@
       ],
       "key_words": [
         "queixalada", "cuixa",
-        "terra", "llen"
+        "terra", "llan"
       ],
       "end": false
     },
@@ -123,7 +127,7 @@
         "Els membres de la tribu indígena d'aquesta illa són tots vegetarians per tradició.",
         "Consideren la carn un regal massa preuat, i la reserven pels Deus, per això estaven fent una ceremònia on els hi entregaven les seves ofrenenes.",
         "Els membres de la tribu t'agafen i el lliguen amb molta força.",
-        "Ja no hi ha escapatòria. Em sembla que tu seràs la seva pròxima ofrena als seus Déus...\n"
+        "Ja no hi ha escapatòria. Em sembla que tu seràs la seva pròxima ofrena als seus Déus..."
       ],
       "seguent": [],
       "key_words": [
@@ -135,11 +139,14 @@
       "id": 7,
       "text": [
         "Agafes la costella de carn i la llances contra el terra.",
-        "El Shaka s'aixeca i fa un crit. De cop tots els membres de la tribu l'imiten i comencen a ballar al teu voltant",
+        "El Shaka s'aixeca i fa un crit.",
+        "De cop tots els membres de la tribu l'imiten i comencen a ballar al teu voltant",
         "Els membres de la tribu indígena d'aquesta illa són tots vegetarians per tradició.",
-        "\nConsideren la carn un regal massa preuat, i la reserven pels Deus, per això estaven fent una ceremònia on els hi entregaven les seves ofrenenes.",
-        "Ara ja ets un d'ells. Alguns comencen a ballar al voltant del foc mentre uns altres seuen i els animen.",
-        "\nQuè faràs tu?\n"
+        "Consideren la carn un regal massa preuat, i la reserven pels Deus.",
+        "Per això estaven fent una ceremònia on els hi entregaven les seves ofrenenes.",
+        "Ara ja ets un d'ells.",
+        "Alguns comencen a ballar al voltant del foc mentre uns altres seuen i els animen.",
+        "Què faràs tu?"
       ],
       "seguent":
         [8, 20],
@@ -153,10 +160,15 @@
       "id": 8,
       "text": [
         "Balles amb ells al voltant del foc mentre intentes imitar els seus moviments!",
-        "\nUn va fent crits i tots els altres el repeteixen. Tu t'uneixes als seus crits. Em sembla que t'han acceptat molt bé.",
-        "\nUn dels membres més ancians treu un bol amb un líquid verd. Se'l van passant d'un a l'altre i tots hi fan un glop. Fins i tot els nens.",
-        "\nQuan arriba a tu, l'olores. Fa una olor molt forta! Fins i tot et ploren els ulls.",
-        "\nQuè decideixes: fer-hi un glop o passar-li el bol al següent?"
+        "Un va fent crits i tots els altres el repeteixen.",
+        "Tu t'uneixes als seus crits.",
+        "Em sembla que t'han acceptat molt bé.",
+        "Un dels membres més ancians treu un bol amb un líquid verd.",
+        "Se'l van passant d'un a l'altre i tots hi fan un glop.",
+        "Fins i tot els nens.",
+        "Quan arriba a tu, l'olores.",
+        "Fa una olor molt forta! Fins i tot et ploren els ulls.",
+        "Què decideixes: fer-hi un glop o passar-li el bol al següent?"
       ],
       "seguent": [9, 17],
       "key_words": [
@@ -168,30 +180,144 @@
     {
       "id": 9,
       "text": [
-        "Fas un glop del líquid pestilent i li passes al seguent.",
-        "\nNotes com et baixa pel coll, i de cop comences a veure-hi borrós. Et fa mal el cap i et costa aguantar-te dret.",
-        "\nEls indígenes tenen tradicions ben estranyes eh!",
-        "\nIntenta no adormir-te! INTENTA NO ADORMIR-TE!",
+        "Fas un glop del líquid pestilent i li passes al següent.",
+        "Notes com et baixa pel coll, i de cop comences a veure-hi borrós.",
+        "Et fa mal el cap i et costa aguantar-te dret.",
+        "Els indígenes tenen tradicions ben estranyes eh!",
+        "Intenta no adormir-te!",
+        "INTENTA NO ADORMIR-TE!",
         ".",
         ".",
         ".",
-        "\nEi!",
-        "Per fi et despertes\n",
+        "Ei!",
+        "Per fi et despertes",
         "Ahir va ser una nit mogudeta eh...",
         "No recordes res?",
-        "\nBé, a vegades és millor no recordar depen què.",
-        "\nEstàs dins una de les tendes del campament. Ahir van haver de portar-te entre uns quants perquè no podies ni moure't.",
-        "\nAquestes pocions que es veuen els indígenes són molt fortes.",
+        "Bé, a vegades és millor no recordar depen què.",
+        "Estàs dins una de les tendes del campament.",
+        "Ahir van haver de portar-te entre uns quants perquè no podies ni moure't.",
+        "Aquestes pocions que es veuen els indígenes són molt fortes.",
         "Ai! D'on surt aquesta sang?",
-        "Tens una ferida al cap. Hauries de dir-li al Shaka perquè si no te la cures aviat podries morir desagnat.",
-        "\nEl Shaka et diu que vagis a veure al bruixot de la tribu. Fa servir tècniques de medicina occidental molt espirituals",
-        "Què decideixes: fer-li cas al Shaka i anar a veure el bruixot o intentes curar-te-la tu mateix?\n"
+        "Tens una ferida al cap.",
+        "Hauries de dir-li al Shaka perquè si no te la cures aviat podries morir desagnat.",
+        "El Shaka et diu que vagis a veure al bruixot de la tribu. Fa servir tècniques de medicina occidental molt espirituals. Què decideixes: fer-li cas al Shaka i anar a veure el bruixot o intentes curar-te-la tu mateix?\n"
       ],
       "seguent": [10, 12],
       "key_words": [
-        "Shaka", "bruixot",
+        "shaka", "bruixot",
         "intent", "curar"
       ],
+      "end": false
+    },
+    {
+      "id": 10,
+      "text": [
+        "La tenda del bruixot fa una olor molt forta.",
+        "A herbes i plantes, suposo.",
+        "Està molt fosc, però al fons es veu el bruixot.",
+        "Un home vell vestit amb una túnica.",
+        "Et diu que t'hi acostis i et mira la ferida.",
+        "Sembla que té clar el que necessites.",
+        "Va a buscar entre tots els pots que té i te'n dona un.",
+        "És un pot de crema groga que fa molt mala olor.",
+        "Et diu que això et curarà la ferida.",
+        "Depèn de tu si te'n fies o si t'hi negues.",
+        "Que vols fer?"
+      ],
+      "seguent": [11, 13],
+      "key_words": [
+        "sí", "fio",
+        "neg", "no"
+      ],
+      "end": false
+    },
+    {
+      "id": 11,
+      "text": [
+        "Acceptes i el bruixot et posa la crema per tot el cap.",
+        "Surts de la tenda molt content. La ferida ja no et fa gens de mal.",
+        "Sembla increïble que la medicina natural funcioni tant bé!",
+        "Ei! Espera! Estàs bé?",
+        "Diria que no tot va tant bé com sembla.",
+        "T'estàs marejant i caus al terra. Crec que no has fet bé al fiar-te del bruixot.",
+        "No sé què devia portar aquella crema, però t'ha deixat pitjor de com estaves.",
+        "Em sap greu, però em sembla que no sobreviuràs a aquesta infecció..."
+      ],
+      "seguent": [],
+      "key_words": [
+        ""
+      ],
+      "end": true
+    },
+    {
+      "id": 12,
+      "text": [
+        "Veig que no ets gaire fanàtic de la medicina tradicional.",
+        "Aconsegueixes trobar un fil i un os per cosir.",
+        "Amb sort això servirà per tapar la ferida.",
+        "Ara que ja tens els materials, on et cosiràs la ferida? A una de les tendes o al mig del bosc?"
+      ],
+      "seguent": [
+        14, 15
+      ],
+      "key_words": [
+        "tend", "una",
+        "bosc", "mig"
+      ],
+      "end": false
+    },
+    {
+      "id": 13,
+      "text": [
+        "Això que has fet ha ofès a la tribu.",
+        "Decideixen expulsar-te per sempre.",
+        "Si jo fos tu correria ben lluny d'aquí.",
+        "I millor que no tornem a apropar-nos a aquesta zona de la selva.",
+        "Marxem d'aquí. Si seguim per allà arribarem a la costa."
+      ],
+      "seguent": [
+        31
+      ],
+      "key_words": [
+        ""
+      ],
+      "end": false
+    },
+    {
+      "id": 14,
+      "text": [
+        "Mira, aquesta tenda està buida.",
+        "És hora de posar fil a l'agulla!",
+        "Literalment:wink:",
+        "Mentre estàs tant concentrat cosint entra el Shaka.",
+        "Ha quedat meravellat per les teves habilitats i s'adona que podries ser el nou xaman de la tribu.",
+        "Et sembla una bona idea?"
+      ],
+      "seguent": [
+        16, 13
+      ],
+      "key_words": [
+        "sí", "si",
+        "no", "ni"
+      ],
+      "end": false
+    },
+    {
+      "id": 15,
+      "text": [
+        "Marxem al bosc perquè no et vegin els membres de la tribu.",
+        "Aquesta pedra pot ser un bon lloc per seure mentre et cures.",
+        "És hora de posar fil a l'agulla!",
+        "Literalment:wink:",
+        "Oh no! Sento passes!",
+        "Allà al fons hi ha uns quants membres de la tribu que ens han seguit.",
+        "Ens atrapen!",
+        "Creuen que hem estat conspriant contra ells i per això hem fugit al bosc."
+      ],
+      "seguent": [
+        13
+      ],
+      "key_words": [""],
       "end": false
     }
   ]
