@@ -501,49 +501,65 @@
     {
       "id": 25,
       "text": [
-        "Ens trobem amb un riu. Pesquem o seguim?"
+        "Ens davant d'un riu.",
+        "Hi ha molt peixos saltant.",
+        "Podríem poar-nos a l'aigua i intentar pescar-ne algun. Què hi dius: pesquem o seguim?"
       ],
       "seguent": [
         26, 27
       ],
       "key_words": [
-        "peixos", "pesc",
-        "seguir", "endavant"
+        "pesq", "pesc",
+        "segu", "endavant"
       ],
       "end": false
     },
     {
       "id": 26,
       "text": [
-        "COCODRILO! Corres o quiet?"
+        "Doncs cap a l'aigua.",
+        "Haurem de pescar amb les mans perquè no tenim res més.",
+        "L'aigua t'arriba per la cintura.",
+        "Oh no!",
+        "Mira!",
+        "Al fons del riu hi ha un...",
+        ":crocodile:",
+        "Està just al teu costat!",
+        "Què faràs: quedar-te immòbil a veure si passa de llarg o intentar nedar per sortir de l'aigua?"
       ],
       "seguent": [
         28, 29
       ],
       "key_words": [
-        "quiet", "no",
-        "córr", "corr"
+        "qued", "imm",
+        "ned", "sorti"
       ],
       "end": false
     },
     {
       "id": 27,
       "text": [
-        "hi ha un nen. Ens hi acostem?"
+        "Seguim caminant per la vora del riu, a veure què trobem.",
+        "Allà davant hi ha un nen.",
+        "Sembla d'una tribu d'aquí. Què fem? Anem a parlar amb ell o seguim el nostre camí?"
       ],
       "seguent": [
         30, 31
       ],
       "key_words": [
-        "si", "sí",
-        "ni", "no"
+        "parl", "ell",
+        "segu", "camí"
       ],
       "end": false
     },
     {
       "id": 28,
       "text": [
-        "mueres!"
+        "Et quedes quiet.",
+        "El cocodril s'acosta cada cop més.",
+        "Ja és massa tard...",
+        "El tens just a sobre.",
+        "Em sembla que t'has convertit en el seu dinar."
       ],
       "seguent": [
 
@@ -556,7 +572,8 @@
     {
       "id": 29,
       "text": [
-        "T'has salvat. Seguim pel voltant del riu"
+        "Sort que nedes tan ràpid!",
+        "Has aconseguit sortir de l'aigua sense que el cocodril t'atrapés."
       ],
       "seguent": [
         27
@@ -569,7 +586,9 @@
     {
       "id": 30,
       "text": [
-        "El segueixes?"
+        "El nen ens saluda.",
+        "Sembla que s'està banyant tranquil·lament",
+        "Quan ens veu surt de l'aigua i ens explica que viu a un poblat aquí al costat, amb la seva tribu. Ens convida a anar amb ell i així ens l'ensenyarà. El segueixes?"
       ],
       "seguent": [
         5, 31
