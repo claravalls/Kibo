@@ -8,48 +8,72 @@
         "Pensava que no sobreviuries.",
         "No! Espera! No t'aixequis tan de pressa. :scream:",
         "T'has empassat molta aigua.",
-        "Quan vaig veure que el mar feia desapareixer el teu vaixell entre aquella terrible tempesta...:ocean: :thunder_cloud_rain:",
-        "Però l'endemà al matí vas aparèixer flotant a la costa. Has tingut molta sort.",
-        "Em dic Kibo. Sóc un lloro, però no un lloro qualsevol. Ja ho aniràs veient.",
-        "Estàs a una illa molt petita que no apareix ni als mapes. Jo t'aniré guiant per ajudar-te a sobreviure. Però tot depèn de tu. Les eleccions que facis decidiran si sobrevius o mors. Així que pensa bé abans de respondre. Què vols fer primer: explorar l'illa o anar a buscar recursos?\n"
+        "Quan vaig veure que el mar feia desaparèixer el teu vaixell entre aquella terrible tempesta...:ocean: :thunder_cloud_rain:",
+        "Però l'endemà al matí vas aparèixer flotant a la costa. Has tingut molta sort. Com et dius?"
       ],
       "seguent": [
-        1,
-        40
+        1
+      ],
+      "key_words": [
+        ""
       ],
       "end": false
     },
     {
       "id": 1,
       "text": [
-        "Perfecte, doncs comencem explorant l'illa.",
-        "Si anem cap a l'oest ens endinsarem a la selva. Si seguim cap al nord podrem vorejar la costa.",
-        "Què prefereixes: explorar la selva o explorar la costa?\n"
+        "Jo em dic Kibo. Sóc un lloro, però no un lloro qualsevol. Ja ho aniràs veient.",
+        "Estàs a una illa molt petita que no apareix ni als mapes. Jo t'aniré guiant per ajudar-te a sobreviure. Però tot depèn de tu. Les eleccions que facis decidiran si sobrevius o mors. Així que pensa bé abans de respondre. Què vols fer primer: explorar l'illa o anar a buscar recursos?\n"
       ],
       "seguent": [
         2,
-        30
+        40
+      ],
+      "key_words": [
+        "illa", "explorar",
+        "recursos", "buscar"
       ],
       "end": false
     },
     {
       "id": 2,
       "text": [
-        "Ens endinsem a la selva. És molt espessa.",
-        "Se senten molts sorolls d'animals. Hauràs d'anar en compte perquè alguns són molt perillosos.",
-        "Si t'hi fixes bé es pot sentir el soroll d'aigua corrent. Deu haver-hi un riu a prop.",
-        "Espera.",
-        "Què és això? Se sent una música de tambors. Què deu ser?",
-        "Què prefereixes: descobrir d'on ve la música(0) o buscar el riu?(1)\n"
+        "Perfecte, doncs comencem explorant l'illa.",
+        "Si anem cap a l'oest ens endinsarem a la selva. Si seguim cap al nord podrem vorejar la costa.",
+        "Què prefereixes?\n"
       ],
       "seguent": [
         3,
-        23
+        30
+      ],
+      "key_words": [
+        "selva", "oest",
+        "costa", "nord"
       ],
       "end": false
     },
     {
       "id": 3,
+      "text": [
+        "Ens endinsem a la selva. És molt espessa.",
+        "Se senten molts sorolls d'animals. Hauràs d'anar en compte perquè alguns són molt perillosos.",
+        "Si t'hi fixes bé es pot sentir el soroll d'aigua corrent. Deu haver-hi un riu a prop.",
+        "Espera.",
+        "Què és això? Se sent una música de tambors. Què deu ser?",
+        "Què prefereixes: descobrir d'on ve la música o buscar el riu?\n"
+      ],
+      "seguent": [
+        4,
+        23
+      ],
+      "key_words": [
+        "música", "descobrir",
+        "riu", "buscar"
+      ],
+      "end": false
+    },
+    {
+      "id": 4,
       "text": [
         "Seguim el so de la música.",
         "Espera. Amaguem-nos darrera d'aquests arbustos. Crec que ja sé què és aquest so.",
@@ -57,16 +81,20 @@
         "és la tribu indígena de l'illa. Estan celebrant una de les seves ceremònies al voltant del foc.",
         "Són una tribu pacífica, però molt tradicionals. \nTenen unes creences molt fortes, així que és millor no ofendre'ls.",
         "Estan fent una ofrena a un dels seus Déus, mira, per això tenen aquell tros de carn coent-se al foc.",
-        "Què vols fer: ens hi acostem(0) o seguim explorant la selva?(1)\n"
+        "Què vols fer: ens acostem a la tribu o seguim explorant la selva?\n"
       ],
       "seguent": [
-        4,
+        5,
         23
+      ],
+      "key_words": [
+        "acost", "tribu",
+        "selva", "explor"
       ],
       "end": false
     },
     {
-      "id": 4,
+      "id": 5,
       "text": [
         "Ens han vist.",
         "Camina amb seguretat i mira'ls als ulls quan et parlin. Ara ja no ens podem fer enrera.",
@@ -74,16 +102,20 @@
         "Mmmm...",
         "Fa molt bona olor.",
         "Agafa-la abans que s'ofengui.",
-        "Què faràs amb ella: li fas una queixalada(0) o la llences al terra?(1)\n"
+        "Què faràs amb ella: li fas una queixalada o la llences al terra?\n"
       ],
       "seguent": [
-        5,
-        6
+        6,
+        7
+      ],
+      "key_words": [
+        "queixalada", "cuixa",
+        "terra", "llen"
       ],
       "end": false
     },
     {
-      "id": 5,
+      "id": 6,
       "text": [
         "Està realment molt bona!",
         "Quan el Shaka s'aixeca i veu que t'estas menjant la cuixa que t'ha ofert fa un crit i tres membres de la tribu t'apunten amb la seva llança.",
@@ -94,36 +126,47 @@
         "Ja no hi ha escapatòria. Em sembla que tu seràs la seva pròxima ofrena als seus Déus...\n"
       ],
       "seguent": [],
+      "key_words": [
+        ""
+      ],
       "end": true
     },
     {
-      "id": 6,
+      "id": 7,
       "text": [
         "Agafes la costella de carn i la llances contra el terra.",
         "El Shaka s'aixeca i fa un crit. De cop tots els membres de la tribu l'imiten i comencen a ballar al teu voltant",
         "Els membres de la tribu indígena d'aquesta illa són tots vegetarians per tradició.",
         "\nConsideren la carn un regal massa preuat, i la reserven pels Deus, per això estaven fent una ceremònia on els hi entregaven les seves ofrenenes.",
         "Ara ja ets un d'ells. Alguns comencen a ballar al voltant del foc mentre uns altres seuen i els animen.",
-        "\nQuè fas: t'uneixes al ball(0) o seus i els mires?(1)\n"
+        "\nQuè faràs tu?\n"
       ],
       "seguent":
-        [7, 20],
+        [8, 20],
+      "key_words": [
+        "ball", "foc",
+        "sec", "mir"
+      ],
       "end": false
     },
     {
-      "id": 7,
+      "id": 8,
       "text": [
         "Balles amb ells al voltant del foc mentre intentes imitar els seus moviments!",
         "\nUn va fent crits i tots els altres el repeteixen. Tu t'uneixes als seus crits. Em sembla que t'han acceptat molt bé.",
         "\nUn dels membres més ancians treu un bol amb un líquid verd. Se'l van passant d'un a l'altre i tots hi fan un glop. Fins i tot els nens.",
         "\nQuan arriba a tu, l'olores. Fa una olor molt forta! Fins i tot et ploren els ulls.",
-        "\nQuè decideixes: fer-hi un glop com tots els altres(0) o fer veure que beus i passar-li el bol al següent?(1)\n"
+        "\nQuè decideixes: fer-hi un glop o passar-li el bol al següent?"
       ],
-      "seguent": [8, 17],
+      "seguent": [9, 17],
+      "key_words": [
+        "glop", "fer",
+        "bol", "pass"
+      ],
       "end": false
     },
     {
-      "id": 8,
+      "id": 9,
       "text": [
         "Fas un glop del líquid pestilent i li passes al seguent.",
         "\nNotes com et baixa pel coll, i de cop comences a veure-hi borrós. Et fa mal el cap i et costa aguantar-te dret.",
@@ -142,9 +185,13 @@
         "Ai! D'on surt aquesta sang?",
         "Tens una ferida al cap. Hauries de dir-li al Shaka perquè si no te la cures aviat podries morir desagnat.",
         "\nEl Shaka et diu que vagis a veure al bruixot de la tribu. Fa servir tècniques de medicina occidental molt espirituals",
-        "Què decideixes: fer-li cas al Shaka i anar a veure el bruixot(0) o intentes curar-te-la tu mateix?(1)\n"
+        "Què decideixes: fer-li cas al Shaka i anar a veure el bruixot o intentes curar-te-la tu mateix?\n"
       ],
-      "seguent": [9, 12],
+      "seguent": [10, 12],
+      "key_words": [
+        "Shaka", "bruixot",
+        "intent", "curar"
+      ],
       "end": false
     }
   ]

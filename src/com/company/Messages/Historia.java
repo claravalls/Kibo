@@ -6,10 +6,10 @@ import com.google.gson.stream.JsonReader;
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.FileReader;
+import java.util.Collections;
 import java.util.List;
 
-public class Historia {
-    private int id;
+public class Historia  {
     private List<Missatge> missatges;
 
     public Historia(String fitxer) throws FileNotFoundException {
@@ -18,17 +18,10 @@ public class Historia {
 
         JsonReader reader = new JsonReader(new FileReader(f.concat(fitxer)));
         Historia h = gson.fromJson(reader, Historia.class);
+        Collections.sort(h.getMissatges());
         this.missatges = h.missatges;
     }
-
-    public int getId() {
-        return id;
-    }
-
-    public void setId(int id) {
-        this.id = id;
-    }
-
+    
     public List<Missatge> getMissatges() {
         return missatges;
     }
