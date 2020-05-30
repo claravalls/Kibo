@@ -5,6 +5,7 @@ import com.company.Messages.MessagesManager;
 import com.vdurmont.emoji.EmojiParser;
 import org.telegram.telegrambots.bots.TelegramLongPollingBot;
 import org.telegram.telegrambots.meta.api.methods.send.SendMessage;
+import org.telegram.telegrambots.meta.api.methods.send.SendPhoto;
 import org.telegram.telegrambots.meta.api.objects.Update;
 import org.telegram.telegrambots.meta.exceptions.TelegramApiException;
 
@@ -77,7 +78,7 @@ public class KiboBot extends TelegramLongPollingBot {
                         execute(message); // Sending our message object to user
                         Thread.sleep(1500);
                     }
-                    last_mess = 0;
+                    last_mess = 20;
                 } catch (TelegramApiException | InterruptedException e) {
                     e.printStackTrace();
                 }
@@ -102,6 +103,7 @@ public class KiboBot extends TelegramLongPollingBot {
 
     private boolean showNext (long chat_id, String missatge){
         List<SendMessage> messages;
+        List<SendPhoto> photos = new ArrayList<>();
         if (last_mess == 0){
             user.setName(missatge); //recullo el nom
             List<String> text = new ArrayList<>();
@@ -116,6 +118,8 @@ public class KiboBot extends TelegramLongPollingBot {
         else {
             List<String> key_words = historia.getMissatges().get(last_mess).getKey_words();
             missatge = missatge.toLowerCase();
+            List<Photo> p = historia.getMissatges().get(last_mess).getPhotos();
+
             if (missatge.contains(key_words.get(0)) || missatge.contains(key_words.get(1))) {
                 last_mess = historia.getMissatges().get(last_mess).getSeguent().get(0);
                 messages = messagesManager.showMessage(chat_id, historia.getMissatges().get(last_mess).getText());
@@ -127,9 +131,15 @@ public class KiboBot extends TelegramLongPollingBot {
             else
                 return false;
         }
-        if(historia.getMissatges().get(last_mess).getSeguent().size() == 1){ //ha arribat a un final
+        if(historia.getMissatges().get(last_mess).getPhotos() != null){
+            for (Photo photo: historia.getMissatges().get(last_mess).getPhotos()) {
+                photos.addAll(messagesManager.sendPhoto(chat_id, photo));
+            }
+        }
+
+        while(historia.getMissatges().get(last_mess).getSeguent().size() == 1){ //salta de branca (només té una opció)
             last_mess = historia.getMissatges().get(last_mess).getSeguent().get(0);
-            messages = messagesManager.showMessage(chat_id, historia.getMissatges().get(last_mess).getText());
+            messages.addAll(messagesManager.showMessage(chat_id, historia.getMissatges().get(last_mess).getText()));
         }
         if(historia.getMissatges().get(last_mess).isEnd()){ //ha arribat a un final
             last_mess= -1;
@@ -138,9 +148,16 @@ public class KiboBot extends TelegramLongPollingBot {
         try {
             for (SendMessage message : messages) {
                 execute(message); // Sending our message object to user
-                Thread.sleep(1500);
+                Thread.sleep(1800);
             }
         } catch (TelegramApiException | InterruptedException e) {
+            e.printStackTrace();
+        }
+        try {
+            for (SendPhoto photo : photos) {
+                execute(photo); // Sending our message object to user
+            }
+        } catch (TelegramApiException e) {
             e.printStackTrace();
         }
         return true;

@@ -1,5 +1,7 @@
 package com.company.Messages;
 
+import com.company.Photo;
+
 import java.util.List;
 
 public class Missatge implements Comparable<Missatge>{
@@ -7,6 +9,7 @@ public class Missatge implements Comparable<Missatge>{
     private Integer id;
     private List<Integer> seguent;
     private List<String> key_words;
+    private List<Photo> photos;
     private boolean end;
 
     public List<String> getText() {
@@ -27,6 +30,10 @@ public class Missatge implements Comparable<Missatge>{
 
     public List<String> getKey_words() {
         return key_words;
+    }
+
+    public List<Photo> getPhotos() {
+        return photos;
     }
 
     @Override

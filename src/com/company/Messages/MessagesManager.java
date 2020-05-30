@@ -1,7 +1,9 @@
 package com.company.Messages;
 
+import com.company.Photo;
 import com.vdurmont.emoji.EmojiParser;
 import org.telegram.telegrambots.meta.api.methods.send.SendMessage;
+import org.telegram.telegrambots.meta.api.methods.send.SendPhoto;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -30,5 +32,15 @@ public class MessagesManager {
                 .setText(answer);
         messages.add(message);
         return messages;
+    }
+
+    public List<SendPhoto> sendPhoto(long chat_id, Photo photo){
+        List<SendPhoto> photos = new ArrayList<>();
+        SendPhoto msg = new SendPhoto()
+                .setChatId(chat_id)
+                .setPhoto(photo.getPath())
+                .setCaption(photo.getCaption());
+        photos.add(msg);
+        return photos;
     }
 }
