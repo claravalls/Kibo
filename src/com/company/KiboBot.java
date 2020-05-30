@@ -37,39 +37,8 @@ public class KiboBot extends TelegramLongPollingBot {
             // Set variables
             String message_text = update.getMessage().getText();
             long chat_id = update.getMessage().getChatId();
-            //Per fer el emote
-            //String answer = EmojiParser.parseToUnicode("Bienvenido a Kibo bot :smile:");
-            //SendMessage message = new SendMessage() // Create a message object object
-            //            .setChatId(chat_id)
-            //            .setText(answer);
-            //PER FER FOTO
-            // SendPhoto msg = new SendPhoto()
-            //            .setChatId(chat_id)
-            //            .setPhoto("AgADAgAD6qcxGwnPsUgOp7-MvnQ8GecvSw0ABGvTl7ObQNPNX7UEAAEC")
-            //            .setCaption("Photo");
-            //PER FER BOTONS
-            //// Create ReplyKeyboardMarkup object
-            //    ReplyKeyboardMarkup keyboardMarkup = new ReplyKeyboardMarkup();
-            //    // Create the keyboard (list of keyboard rows)
-            //    List<KeyboardRow> keyboard = new ArrayList<>();
-            //    // Create a keyboard row
-            //    KeyboardRow row = new KeyboardRow();
-            //    // Set each button, you can also use KeyboardButton objects if you need something else than text
-            //    row.add("Row 1 Button 1");
-            //    row.add("Row 1 Button 2");
-            //    row.add("Row 1 Button 3");
-            //    // Add the first row to the keyboard
-            //    keyboard.add(row);
-            //    // Create another keyboard row
-            //    row = new KeyboardRow();
-            //    // Set each button for the second line
-            //    row.add("Row 2 Button 1");
-            //    row.add("Row 2 Button 2");
-            //    row.add("Row 2 Button 3");
-            //    // Add the second row to the keyboard
-            //    keyboard.add(row);
-            //    // Set the keyboard to the markup
-            //    keyboardMarkup.setKeyboard(keyboard);
+
+
             if (message_text.equals("/start")) {
                 messagesManager = new MessagesManager();
                 List<SendMessage> messages = messagesManager.showMessage(chat_id, historia.getMissatges().get(0).getText());
@@ -78,7 +47,7 @@ public class KiboBot extends TelegramLongPollingBot {
                         execute(message); // Sending our message object to user
                         Thread.sleep(1500);
                     }
-                    last_mess = 20;
+                    last_mess = 0;
                 } catch (TelegramApiException | InterruptedException e) {
                     e.printStackTrace();
                 }
@@ -107,7 +76,7 @@ public class KiboBot extends TelegramLongPollingBot {
         if (last_mess == 0){
             user.setName(missatge); //recullo el nom
             List<String> text = new ArrayList<>();
-            text.add("Tens un nom que queda bé amb la teva cara, " + user.getName()); //No se quina salutació posar-li
+            text.add("Tens un nom que queda bé amb la teva cara, " + user.getName());
             text.addAll(historia.getMissatges().get(1).getText());
             messages = messagesManager.showMessage(chat_id, text);
             last_mess = 1;
@@ -118,7 +87,6 @@ public class KiboBot extends TelegramLongPollingBot {
         else {
             List<String> key_words = historia.getMissatges().get(last_mess).getKey_words();
             missatge = missatge.toLowerCase();
-            List<Photo> p = historia.getMissatges().get(last_mess).getPhotos();
 
             if (missatge.contains(key_words.get(0)) || missatge.contains(key_words.get(1))) {
                 last_mess = historia.getMissatges().get(last_mess).getSeguent().get(0);
@@ -135,6 +103,10 @@ public class KiboBot extends TelegramLongPollingBot {
             for (Photo photo: historia.getMissatges().get(last_mess).getPhotos()) {
                 photos.addAll(messagesManager.sendPhoto(chat_id, photo));
             }
+        }
+
+        if(historia.getMissatges().get(last_mess).getButtons() != null){
+            messagesManager.changeKeyboard(historia.getMissatges().get(last_mess).getButtons());
         }
 
         while(historia.getMissatges().get(last_mess).getSeguent().size() == 1){ //salta de branca (només té una opció)

@@ -461,6 +461,10 @@
           "caption": "Asclepias curassavica"
         }
       ],
+      "buttons": [
+        "Conium maculatum",
+        "Asclepias curassavica"
+      ],
       "end": false
     },
     {
@@ -497,21 +501,25 @@
     {
       "id": 25,
       "text": [
-        "Ens trobem amb un riu. Pesquem o seguim?"
+        "Ens davant d'un riu.",
+        "Hi ha molt peixos saltant.",
+        "Podríem poar-nos a l'aigua i intentar pescar-ne algun. Què hi dius: pesquem o seguim?"
       ],
       "seguent": [
         26, 27
       ],
       "key_words": [
-        "peixos", "pesc",
-        "seguir", "endavant"
+        "pesq", "pesc",
+        "segu", "endavant"
       ],
       "end": false
     },
     {
       "id": 26,
       "text": [
-        "COCODRILO! Corres o quiet?"
+        "Doncs cap a l'aigua.",
+        "Haurem de pescar amb les mans perquè no tenim res més.",
+        ""
       ],
       "seguent": [
         28, 29

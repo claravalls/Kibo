@@ -461,6 +461,10 @@
           "caption": "Asclepias curassavica"
         }
       ],
+      "buttons": [
+        "Conium maculatum",
+        "Asclepias curassavica"
+      ],
       "end": false
     },
     {

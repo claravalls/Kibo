@@ -10,6 +10,7 @@ public class Missatge implements Comparable<Missatge>{
     private List<Integer> seguent;
     private List<String> key_words;
     private List<Photo> photos;
+    private List<String> buttons;
     private boolean end;
 
     public List<String> getText() {
@@ -34,6 +35,10 @@ public class Missatge implements Comparable<Missatge>{
 
     public List<Photo> getPhotos() {
         return photos;
+    }
+
+    public List<String> getButtons() {
+        return buttons;
     }
 
     @Override
