@@ -58,13 +58,13 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="java" value="2958" />
-          <entry key="json" value="10491" />
+          <entry key="json" value="10519" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="JAVA" value="2958" />
-          <entry key="JSON" value="10491" />
+          <entry key="JSON" value="10519" />
         </counts>
       </usages-collector>
     </session>
@@ -86,13 +86,12 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/files/missatges.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="62">
-              <caret line="646" column="18" selection-start-line="646" selection-start-column="18" selection-end-line="646" selection-end-column="18" />
+            <state relative-caret-position="136">
+              <caret line="878" column="32" selection-start-line="878" selection-start-column="18" selection-end-line="878" selection-end-column="32" />
               <folding>
                 <element signature="e#22#594#0" />
                 <element signature="e#600#1187#0" />
                 <element signature="e#1193#1576#0" />
-                <element signature="e#1582#2243#0" />
                 <element signature="e#2249#3055#0" />
                 <element signature="e#3061#3674#0" />
                 <element signature="e#3680#4458#0" />
@@ -201,6 +200,8 @@
       <find>seguent</find>
       <find>31</find>
       <find>17</find>
+      <find>63</find>
+      <find>48</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -349,7 +350,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.54684836" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.17035775" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.1890971" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -523,13 +524,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/files/missatges.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="62">
-          <caret line="646" column="18" selection-start-line="646" selection-start-column="18" selection-end-line="646" selection-end-column="18" />
+        <state relative-caret-position="136">
+          <caret line="878" column="32" selection-start-line="878" selection-start-column="18" selection-end-line="878" selection-end-column="32" />
           <folding>
             <element signature="e#22#594#0" />
             <element signature="e#600#1187#0" />
             <element signature="e#1193#1576#0" />
-            <element signature="e#1582#2243#0" />
             <element signature="e#2249#3055#0" />
             <element signature="e#3061#3674#0" />
             <element signature="e#3680#4458#0" />
