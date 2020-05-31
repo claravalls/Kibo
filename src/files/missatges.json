@@ -1209,6 +1209,170 @@
       "seguent": [],
       "key_words": [],
       "end": true
+    },
+    {
+      "id": 72,
+      "text": [
+        "Perfecte, doncs anem en busca de recursos per l'illa.",
+        "En primer lloc, anirem per la platja a veure si trobem una mica de fusta i algun tipo de menjar.",
+        "Estem per la platja, corre una brisa marina molt relaxant, t'oblides de tot el que ha passat i desconectes una mica.",
+        "Seguim sense trobar res, caminem fins que trobem una cova, allà potser hi ha algun tipo de recurs.",
+        "Doncs, que vols fer entrar a la cova o seguir anem per un altre lloc?"
+      ],
+      "seguent": [73, 75],
+      "key_words": ["cova", "entr", "lloc", "altre"],
+      "end": false
+    },
+    {
+      "id": 73,
+      "text": [
+        "Perfecte, entrem a la cova.",
+        "Tot esta molt fosc i no es veu res.",
+        "No tenim cap tipus de material per il•luminar la cova.",
+        "Que vols fer seguir explorant la cova o marxar?"
+      ],
+      "seguent": [74, 75],
+      "key_words": ["cova", "exp", "mar", "marxar"],
+      "photos": [
+        {
+          "path": "https://image.freepik.com/vector-gratis/escena-fondo-cueva-rocosa-oscura_43633-6704.jpg",
+          "caption": "Cova de la platja"
+        }
+      ],
+      "end": false
+    },
+    {
+      "id": 74,
+      "text": [
+        "Doncs seguim cap a dins la cova.",
+        "És comença a escoltar uns sorolls molt extranys, i apareixen tot tipus d'animals salvatjes.",
+        "NOOO, no pot ser un os gegant, CORREEE!! :scream:",
+        "Ja es massa tard no podem escapar..",
+        "Aqui arriba el nostre final."
+      ],
+      "seguent": [],
+      "key_words": [""],
+      "end": true
+    },
+    {
+      "id": 75,
+      "text": [
+        "Al final has decidint no endinsar-te a la cova, ha sigut la millor eleció possible que podies fer!!.",
+        "Allà dins viu un ós gegant amb molts més animals.. No haguessim sortit vius!! :scream:",
+        "Doncs seguim una mica més per la platja, si no torbem res, anirem cap a la bora de la selva però sense entrar a dins, que es molt perillos.",
+        "Mira!! Aquí i han uns quants cocos, agafem-los!!",
+        "Que has menjat bé? Fas bona cara, s'et veu amb més energia!!",
+        "Si tens més gana podem probar d'escalat aquestes palmeres a veure si trobem algun coco més, que et sembla?",
+        "Vols pujar a agafar més cocos o seguim endavnt?"
+      ],
+      "seguent": [76, 77],
+      "key_words": ["pujar", "cocos", "seg", "endavant"],
+      "end": false
+    },
+    {
+      "id": 76,
+      "text": [
+        "Pues pujem a agafar més cocos!!! Serà una mica difícil que ho sapigues!",
+        "Que bé! Ja estas arribant adalt de tot casi, segueix així",
+        "Acabem d'arribar a dalt de tot i no hem trobat res, quina mala sort..",
+        "Qué es aques soroll? NOO NOO pot ser :scream:",
+        "Ens han vist uns babuinos, no tenim escapatòria",
+        "S'estan apropant..",
+        "Els tenim a sobre.. ja venen... NO!!!",
+        "Ha sigut un plaer coneixeee...."
+      ],
+      "seguent": [],
+      "key_words": [""],
+      "end": true
+    },
+    {
+      "id": 77,
+      "text": [
+        "No estem trobant res, haurem d'endinsar-nos una mica dins la selva",
+        "Si no entrem molt cap a dins no sera perillós, a veure si trobem una mica de fusta per poder fer algun invent interesant!",
+        "Que bonic és el sroll de la selva eh, que en penses?",
+        "S'escolten tota mena d'animals, em relaxa molt",
+        "A tot això, ja portem molta estona caminant i no trobem res..",
+        "Ah mira, allà crec que podrem trobar algo, es una base abandonada de ves-hi a saber de qui.",
+        "Que vols fer? Anem a investigar la base abandonada o seguim caminant?"
+      ],
+      "seguent": [78, 82],
+      "key_words": ["invest", "base", "cam", "seg"],
+      "end": false
+    },
+    {
+      "id": 78,
+      "text": [
+        "Mira ja ens estem apropant, tot sembla segur.",
+        "Seguim no? No tenim res a perdre tampoc.",
+        "Ja hem arribat, hi ha tota mena de materials, pots agafar tot el que creguis necessari."
+      ],
+      "seguent": [79],
+      "key_words": [""],
+      "photos": [
+        {
+          "path": "https://us.123rf.com/450wm/subjob/subjob1708/subjob170800232/84508729-gr%C3%A1fico-decorativo-tur%C3%ADstico-carpa-de-dibujos-animados-aislado-entre-las-palmeras-camping-en-la-naturale.jpg?ver=6",
+          "caption": "Campament abandonat"
+        }
+      ],
+      "end": false
+    },
+    {
+      "id": 79,
+      "text": [
+        "També hi ha una llança, crec que ens podría ser útil.",
+        "Vols agafar la llança?"
+      ],
+      "seguent": [80, 81],
+      "key_words": ["si", "s", "no", "n"],
+      "end": false
+    },
+    {
+      "id": 80,
+      "text": [
+        "Vigila, noto una presencia rara, pot ser que el campament no estigui abandonat o passi una tribu aprop d'aquí, no fem soroll a veure si no ens senten.",
+        "Estigues quiet i no fagis soroll.",
+        "S'estan apropant.. segueix quiet!! :scream:",
+        "ACHISSSS!!",
+        "Noo, ho sento no m'he pogut aguantar..",
+        "Ja ens han vist, estan venint!!",
+        "Hem pogut agafar la llança, intentem defensar-nos!",
+        "Aqui venen!! Ataca!",
+        "Molt bé! Ho has aconseguit!"
+      ],
+      "seguent": [82],
+      "key_words": [""],
+      "end": false
+    },
+    {
+      "id": 81,
+      "text": [
+        "Vigila, noto una presencia rara, pot ser que el campament no estigui abandonat o passi una tribu aprop d'aquí, no fem soroll a veure si no ens senten.",
+        "Estigues quiet i no fagis soroll.",
+        "S'estan apropant.. segueix quiet!!",
+        "ACHISSSS!!",
+        "Noo, ho sento no m'he pogut aguantar..",
+        "Ja ens han vist, estan venint!!",
+        "No hem pogut agafar la llança, no tenim res a fer",
+        "Aquesta tribu es una tribu salvatge no ens deixara vius..",
+        "Aquí s'acaba el nostre viatge.."
+      ],
+      "seguent": [],
+      "key_words": [""],
+      "end": true
+    },
+    {
+      "id": 82,
+      "text": [
+       "Bueno anem a seguir caminant a veure si trobem algun material o algo de menjar!",
+        "Ens podem estar hores i hores buscant i no trobar res, aquesta illa és molt especial",
+        "Pero bueno anem a seguir buscant, o sino també ens podem endinsar a la selva allà segur que trobarem moltes més coses!",
+        "Que et sembla?",
+        "Crec que no ens queda més opció que anar a dins la selva o si nó tornar cap a la costa"
+      ],
+      "seguent": [3, 31],
+      "key_words": ["selva", "dins", "costa", "tornar"],
+      "end": false
     }
   ]
 }
