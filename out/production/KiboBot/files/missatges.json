@@ -22,8 +22,8 @@
     {
       "id": 1,
       "text": [
-        "Jo em dic Kibo. Sóc un lloro, però no un lloro qualsevol. Ja ho aniràs veient.",
-        "Estàs a una illa molt petita que no apareix ni als mapes. Jo t'aniré guiant per ajudar-te a sobreviure. Però tot depèn de tu. Les eleccions que facis decidiran si sobrevius o mors. Així que pensa bé abans de respondre. Què vols fer primer: explorar l'illa o anar a buscar recursos?\n"
+        "Jo em dic Kibo. Sóc un lloro:parrot:, però no un lloro qualsevol. Ja ho aniràs veient.",
+        "Estàs a una illa molt petita que no apareix ni als mapes. Jo t'aniré guiant per ajudar-te a sobreviure. Però tot depèn de tu. Les eleccions que facis decidiran si sobrevius o no. Així que pensa bé abans de respondre. Què vols fer primer: explorar l'illa o anar a buscar recursos?\n"
       ],
       "seguent": [
         2,
@@ -50,6 +50,16 @@
         "selva", "oest",
         "costa", "nord"
       ],
+      "photos": [
+        {
+          "path": "https://i.pinimg.com/originals/b5/09/73/b50973972515480367b5eb41139ce2af.jpg",
+          "caption": "Selva (Oest)"
+        },
+        {
+          "path": "https://www.costacruceros.es/content/dam/costa/costa-asset/c_037/place/costa-cruceros-caribe.jpg.image.750.563.low.jpg",
+          "caption": "Costa (Nord)"
+        }
+      ],
       "end": false
     },
     {
@@ -58,12 +68,12 @@
         "Ens endinsem a la selva.",
         "És molt espessa.",
         "Se senten molts sorolls d'animals.",
-        "Hauràs d'anar en compte perquè alguns són molt perillosos.",
+        "Hauràs d'anar en compte perquè alguns són molt perillosos:worried:.",
         "Si t'hi fixes bé es pot sentir el soroll d'aigua corrent.",
         "Deu haver-hi un riu a prop.",
         "Espera.",
         "Què és això? Se sent una música de tambors.",
-        "Què deu ser?",
+        "Què deu ser?:hushed:",
         "Què prefereixes: descobrir d'on ve la música o buscar el riu?\n"
       ],
       "seguent": [
@@ -80,7 +90,7 @@
       "id": 4,
       "text": [
         "Seguim el so de la música.",
-        "Espera.",
+        "Espera:raised_hand:.",
         "Amaguem-nos darrera d'aquests arbustos.",
         "Crec que ja sé què és aquest so.",
         "Mira allà!",
@@ -107,9 +117,9 @@
         "Camina amb seguretat i mira'ls als ulls quan et parlin.",
         "Ara ja no ens podem fer enrera.",
         "Aquest és el Shaka, el cap de la tribu.",
-        "S'agenolla davant teu i t'entrega una cuixa cuita.",
+        "S'agenolla davant teu i t'entrega una cuixa cuita:poultry_leg:.",
         "Mmmm...",
-        "Fa molt bona olor.",
+        "Fa molt bona olor:drooling_face:.",
         "Agafa-la abans que s'ofengui.",
         "Què faràs amb ella: li fas una queixalada o la llances al terra?"
       ],
@@ -132,7 +142,7 @@
         "Els membres de la tribu indígena d'aquesta illa són tots vegetarians per tradició.",
         "Consideren la carn un regal massa preuat, i la reserven pels Deus, per això estaven fent una ceremònia on els hi entregaven les seves ofrenenes.",
         "Els membres de la tribu t'agafen i el lliguen amb molta força.",
-        "Ja no hi ha escapatòria. Em sembla que tu seràs la seva pròxima ofrena als seus Déus..."
+        "Ja no hi ha escapatòria. Em sembla que tu seràs la seva pròxima ofrena als seus Déus...:worried:"
       ],
       "seguent": [],
       "key_words": [
@@ -143,7 +153,7 @@
     {
       "id": 7,
       "text": [
-        "Agafes la costella de carn i la llances contra el terra.",
+        "Agafes la cuixa de carn i la llances contra el terra.",
         "El Shaka s'aixeca i fa un crit.",
         "De cop tots els membres de la tribu l'imiten i comencen a ballar al teu voltant",
         "Els membres de la tribu indígena d'aquesta illa són tots vegetarians per tradició.",
@@ -164,11 +174,11 @@
     {
       "id": 8,
       "text": [
-        "Balles amb ells al voltant del foc mentre intentes imitar els seus moviments!",
+        "Balles amb ells al voltant del foc mentre intentes imitar els seus moviments!:dancer:",
         "Un va fent crits i tots els altres el repeteixen.",
         "Tu t'uneixes als seus crits.",
-        "Em sembla que t'han acceptat molt bé.",
-        "Un dels membres més ancians treu un bol amb un líquid verd.",
+        "Em sembla que t'han acceptat molt bé:smiley:.",
+        "Un dels membres més ancians treu un bol amb un líquid verd:tea:.",
         "Se'l van passant d'un a l'altre i tots hi fan un glop.",
         "Fins i tot els nens.",
         "Quan arriba a tu, l'olores.",
@@ -448,17 +458,17 @@
         23, 24
       ],
       "key_words": [
-        "conium", "maculatum",
-        "asclepias", "curassavica"
+        "conium", "primera",
+        "asclepias", "segona"
       ],
       "photos": [
         {
           "path": "https://www.fotonostra.com/albums/plantas/fotos/cicuta.jpg",
-          "caption": "Conium maculatum"
+          "caption": "Primera planta (Conium maculatum)"
         },
         {
           "path": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/Asclepias_curassavica_crop.jpg/1200px-Asclepias_curassavica_crop.jpg",
-          "caption": "Asclepias curassavica"
+          "caption": "Segona planta (Asclepias curassavica)"
         }
       ],
       "buttons": [
@@ -501,9 +511,9 @@
     {
       "id": 25,
       "text": [
-        "Ets davant d'un riu.",
+        "Ens trobem davant d'un riu.",
         "Hi ha molt peixos saltant.",
-        "Podríem posar-nos a l'aigua i intentar pescar-ne algun. Què hi dius: pesquem o seguim?"
+        "Podríem posar-nos a l'aigua i intentar pescar-ne algun:fishing_pole_and_fish:. Què hi dius: pesquem o seguim?"
       ],
       "seguent": [
         26, 27
@@ -588,14 +598,14 @@
       "text": [
         "El nen ens saluda.",
         "Sembla que s'està banyant tranquil·lament",
-        "Quan ens veu surt de l'aigua i ens explica que viu a un poblat aquí al costat, amb la seva tribu. Ens convida a anar amb ell i així ens l'ensenyarà. El segueixes?"
+        "Quan ens veu surt de l'aigua i ens explica que viu a un poblat aquí al costat, amb la seva tribu. Ens convida a anar amb ell cap al campament i així ens l'ensenyarà. El segueim fins al campament?"
       ],
       "seguent": [
         5, 31
       ],
       "key_words": [
-        "segu", "sí",
-        "segui", "no"
+        "si", "sí",
+        "ni", "no"
       ],
       "end": false
     },
@@ -1067,10 +1077,10 @@
     {
       "id": 61,
       "text": [
-        "Així que vols quedar-te eh! Ens farem bon amics segur que sí :smile:.",
+        "Així que vols quedar-te eh! Ens farem bons amics segur que sí :smile:.",
         "Doncs necessitarem un lloc on viure i dormir.",
         "Si senyor! No facis aquesta cara. Hem de construir una cabanya en condicions.",
-        "Veuras que agust estas en aquesta illa tan meravellosa :grin:."
+        "Veuras que a gust estàs en aquesta illa tan meravellosa :grin:."
       ],
       "seguent": [],
       "key_words": [],
@@ -1265,7 +1275,7 @@
         "Mira!! Aquí i han uns quants cocos, agafem-los!!",
         "Que has menjat bé? Fas bona cara, s'et veu amb més energia!!",
         "Si tens més gana podem probar d'escalat aquestes palmeres a veure si trobem algun coco més, que et sembla?",
-        "Vols pujar a agafar més cocos o seguim endavnt?"
+        "Vols pujar a agafar més cocos o seguim endavant?"
       ],
       "seguent": [76, 77],
       "key_words": ["pujar", "cocos", "seg", "endavant"],

@@ -58,13 +58,13 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="java" value="2958" />
-          <entry key="json" value="9110" />
+          <entry key="json" value="10488" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="JAVA" value="2958" />
-          <entry key="JSON" value="9110" />
+          <entry key="JSON" value="10488" />
         </counts>
       </usages-collector>
     </session>
@@ -86,8 +86,41 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/files/missatges.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="82">
-              <caret line="505" column="20" selection-start-line="505" selection-start-column="20" selection-end-line="505" selection-end-column="20" />
+            <state relative-caret-position="137">
+              <caret line="1491" column="51" selection-start-line="1491" selection-start-column="51" selection-end-line="1491" selection-end-column="51" />
+              <folding>
+                <element signature="e#22#594#0" />
+                <element signature="e#600#1187#0" />
+                <element signature="e#1193#1576#0" />
+                <element signature="e#1582#2243#0" />
+                <element signature="e#2249#3055#0" />
+                <element signature="e#3061#3674#0" />
+                <element signature="e#3680#4458#0" />
+                <element signature="e#4464#5251#0" />
+                <element signature="e#5257#6025#0" />
+                <element signature="e#6031#7408#0" />
+                <element signature="e#7414#8136#0" />
+                <element signature="e#8142#8828#0" />
+                <element signature="e#8834#9305#0" />
+                <element signature="e#9311#9756#0" />
+                <element signature="e#9762#10264#0" />
+                <element signature="e#10270#10837#0" />
+                <element signature="e#10843#11248#0" />
+                <element signature="e#11254#12196#0" />
+                <element signature="e#12202#13027#0" />
+                <element signature="e#13033#13584#0" />
+                <element signature="e#13590#13985#0" />
+                <element signature="e#13991#14545#0" />
+                <element signature="e#14551#15579#0" />
+                <element signature="e#15585#15930#0" />
+                <element signature="e#15936#16417#0" />
+                <element signature="e#16423#16781#0" />
+                <element signature="e#16787#17353#0" />
+                <element signature="e#17359#17743#0" />
+                <element signature="e#17749#18080#0" />
+                <element signature="e#18086#18346#0" />
+                <element signature="e#18352#18791#0" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -95,10 +128,10 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/company/Messages/Historia.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="79">
-              <caret line="25" selection-start-line="25" selection-end-line="25" />
+            <state relative-caret-position="34">
+              <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#291#292#0" expanded="true" />
                 <element signature="e#323#324#0" expanded="true" />
                 <element signature="e#381#382#0" expanded="true" />
                 <element signature="e#423#424#0" expanded="true" />
@@ -127,8 +160,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/company/KiboBot.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="197">
-              <caret line="49" column="32" selection-start-line="49" selection-start-column="32" selection-end-line="49" selection-end-column="32" />
+            <state relative-caret-position="212">
+              <caret line="144" column="62" selection-start-line="144" selection-start-column="16" selection-end-line="144" selection-end-column="62" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#6356#6357#0" expanded="true" />
@@ -205,11 +238,6 @@
             <path>
               <item name="Kibo" type="b2602c69:ProjectViewProjectNode" />
               <item name="Kibo" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Kibo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Kibo" type="462c0819:PsiDirectoryNode" />
-              <item name="libs" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Kibo" type="b2602c69:ProjectViewProjectNode" />
@@ -321,7 +349,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.29642248" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.5247019" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.1890971" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -443,10 +471,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/Messages/Historia.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="79">
-          <caret line="25" selection-start-line="25" selection-end-line="25" />
+        <state relative-caret-position="34">
+          <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#291#292#0" expanded="true" />
             <element signature="e#323#324#0" expanded="true" />
             <element signature="e#381#382#0" expanded="true" />
             <element signature="e#423#424#0" expanded="true" />
@@ -481,8 +509,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/KiboBot.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="197">
-          <caret line="49" column="32" selection-start-line="49" selection-start-column="32" selection-end-line="49" selection-end-column="32" />
+        <state relative-caret-position="212">
+          <caret line="144" column="62" selection-start-line="144" selection-start-column="16" selection-end-line="144" selection-end-column="62" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#6356#6357#0" expanded="true" />
@@ -495,8 +523,41 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/files/missatges.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="82">
-          <caret line="505" column="20" selection-start-line="505" selection-start-column="20" selection-end-line="505" selection-end-column="20" />
+        <state relative-caret-position="137">
+          <caret line="1491" column="51" selection-start-line="1491" selection-start-column="51" selection-end-line="1491" selection-end-column="51" />
+          <folding>
+            <element signature="e#22#594#0" />
+            <element signature="e#600#1187#0" />
+            <element signature="e#1193#1576#0" />
+            <element signature="e#1582#2243#0" />
+            <element signature="e#2249#3055#0" />
+            <element signature="e#3061#3674#0" />
+            <element signature="e#3680#4458#0" />
+            <element signature="e#4464#5251#0" />
+            <element signature="e#5257#6025#0" />
+            <element signature="e#6031#7408#0" />
+            <element signature="e#7414#8136#0" />
+            <element signature="e#8142#8828#0" />
+            <element signature="e#8834#9305#0" />
+            <element signature="e#9311#9756#0" />
+            <element signature="e#9762#10264#0" />
+            <element signature="e#10270#10837#0" />
+            <element signature="e#10843#11248#0" />
+            <element signature="e#11254#12196#0" />
+            <element signature="e#12202#13027#0" />
+            <element signature="e#13033#13584#0" />
+            <element signature="e#13590#13985#0" />
+            <element signature="e#13991#14545#0" />
+            <element signature="e#14551#15579#0" />
+            <element signature="e#15585#15930#0" />
+            <element signature="e#15936#16417#0" />
+            <element signature="e#16423#16781#0" />
+            <element signature="e#16787#17353#0" />
+            <element signature="e#17359#17743#0" />
+            <element signature="e#17749#18080#0" />
+            <element signature="e#18086#18346#0" />
+            <element signature="e#18352#18791#0" />
+          </folding>
         </state>
       </provider>
     </entry>
