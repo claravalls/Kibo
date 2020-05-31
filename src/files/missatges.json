@@ -853,7 +853,7 @@
     {
       "id": 47,
       "text": [
-        "Hem arribat al refugi. Sembla que per les tempestes els arbres caiguts han acabant sent un sostre natural.",
+        "Hem arribat a un petit refugi. Sembla que per les tempestes els arbres caiguts han acabant sent fent sostre natural.",
         "Hi ha restes de fusta que poden resultar molt útils per alguna mena de construcció.",
         "Sens dubte hauries d'aprofitar aquestos recursos naturals, podría ser la teva salvació.",
         "Podries fer una cabanya on viure o fins i tot una barca on escapar de l'illa.",
@@ -924,7 +924,8 @@
         "S'està apropant... un ser viu",
         "Que? :fearful:",
         "És un...",
-        "Un tigre :tiger: t'ataca... Caus desplomat..."
+        ":tiger:",
+        "Un tigre t'ataca... Caus desplomat..."
       ],
       "seguent": [],
       "key_words": [],
@@ -991,7 +992,8 @@
         "Vinga puja! Utilitza els rems per alliberar-te de la sorra. Si senyor! Ja som en plena mar!",
         ":rowboat:",
         ":ocean:",
-        "Oh no! Mira la lluna! :full_moon:",
+        "Oh no! Mira la lluna!",
+        ":full_moon:",
         "Quan hi ha lluna plena puja la marea i el mar es torna un infern!",
         ":ocean:",
         ":wind_blowing_face: :sweat_drops: :rowboat: :sweat_drops:",
@@ -1088,14 +1090,14 @@
     {
       "id": 64,
       "text": [
-        "Els elements més importants són la base de la barca i el mastil que subjectarà les veles.",
+        "Els elements més importants són la base de la barca i el màstil que subjectarà les veles.",
         "Primer hem de priorizar les tasques.",
         "Que farem primer: "
       ],
       "seguent": [65, 68],
       "key_words": [
         "base", "barca",
-        "cerc", "mastil"
+        "cerc", "màstil"
       ],
       "photos": [
         {
@@ -1104,12 +1106,12 @@
         },
         {
           "path": "https://cloud10.todocoleccion.online/playmobil/tc/2014/01/19/08/41070026.jpg",
-          "caption": "Cercar un mastil"
+          "caption": "Cercar un màstil"
         }
       ],
       "buttons": [
         "Base de la barca",
-        "Cercar un mastil"
+        "Cercar un màstil"
       ],
       "end": false
     },
@@ -1131,9 +1133,9 @@
     {
       "id": 68,
       "text": [
-        "Anem a buscar un tros de fusta ben llarg i robust. Si ha de ser el mastil et faràs una idea del que necessitem.",
+        "Anem a buscar un tros de fusta ben llarg i robust. Si ha de ser el màstil et faràs una idea del que necessitem.",
         "Sí, aquest tros podria valer. Bonna idea! :clock4:",
-        "Molt bé! Ara fem una base per el mastil, pensa que serà el centre del vaixell. :clock6:",
+        "Molt bé! Ara fem una base per el màstil, pensa que serà el centre del vaixell. :clock6:",
         "Això ja estaria. Continuem amb la següent tasca. :clock8:"
       ],
       "seguent": [66],
@@ -1143,7 +1145,7 @@
     {
       "id": 66,
       "text": [
-        "Molt bé ja hem acabat la base i el mastil està llest.",
+        "Molt bé ja hem acabat la base i el màstil està llest.",
         "Ara només queden les veles. Podrien servir unes fulles específiques. Però l'arbre en qüestió :deciduous_tree: es troba dins la selva i hi ha molts animals al voltant",
         "Epa! Mira per allí, sembla que algú està sortint de la cabanya construida. Segurament sigui l'home que l'ha construit i l'utilitza com a casa!",
         "Què n'opines, creus que pots apanyar-te sol amb buscant aquelles fulles o vols demanar ajuda a l'amic de la cabanya?"
@@ -1178,7 +1180,7 @@
         "Bona elecció! Segur que aquella persona ens ajuda!",
         ":runner:",
         "Explica-li que necessites algun material per fer una vela per una barca.",
-        ":thinking.",
+        ":thinking:",
         "Té una idea! Ens diu de seguir-lo dins de la seva cabanya :house_with_garden:",
         ":bed:",
         "Ens ofereix les sabanes del seu llit! És una idea prodigiosa! Són un material perfecte per el que necessitem!"
@@ -1263,7 +1265,7 @@
         "Mira!! Aquí i han uns quants cocos, agafem-los!!",
         "Que has menjat bé? Fas bona cara, s'et veu amb més energia!!",
         "Si tens més gana podem probar d'escalat aquestes palmeres a veure si trobem algun coco més, que et sembla?",
-        "Vols pujar a agafar més cocos o seguim endavnt?"
+        "Vols pujar a agafar més cocos o seguim endavant?"
       ],
       "seguent": [76, 77],
       "key_words": ["pujar", "cocos", "seg", "endavant"],

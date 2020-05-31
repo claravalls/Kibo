@@ -27,7 +27,7 @@
       ],
       "seguent": [
         2,
-        40
+        72
       ],
       "key_words": [
         "illa", "explorar",
@@ -607,7 +607,7 @@
         "Alces la vista i veus que a un parell de metres hi ha unes palmeres enormes.",
         "Què vols fer, apropar-te a l'objecte estrany enfonsat o anar cap a les palmeres?"
       ],
-      "seguent": [32, 39],
+      "seguent": [39, 32],
       "key_words":
       ["object", "enfons",
       "anar","palmer"],
@@ -622,7 +622,7 @@
         "Prefireixes descansar sota les palmeres o provar a agitar-les a veure si cau un coco?"
 
       ],
-      "seguent": [33, 36],
+      "seguent": [36, 33],
       "key_words":
       ["descans", "palmer",
       "agit", "coco"],
@@ -706,7 +706,7 @@
       "id": 38,
       "text": [
         "Ei! Desperta!",
-        "Portes un parell d'hores adormit",
+        "Portes un parell d'hores adormit.",
         "Si el sol s'hagués posat damunt teu podries haver tingut un cop de calor, i precisament aquí el sol no és poca cosa.",
         "Et trobes bé? Segur? Ves amb cura abans de posar-te de peu.",
         "D'acord, sembla que et trobes en condicions de caminar.",
@@ -725,7 +725,7 @@
         "Què vols fer, agafes la xarxa enfonsada o seguim costejant la platja?"
 
       ],
-      "seguent": [41, 40],
+      "seguent": [40, 41],
       "key_words":
       ["xarx", "enfonsa",
       "cost", "platja"],
@@ -771,6 +771,7 @@
         "Oh no! El mar s'està recollint i veus una ola que s'aproxima i cada vegada es fa més gran!",
         "Intentes escapar però t'has quedat enganxat amb la xarxa!",
         "Tens la ola just damunt! Està per rompre i afogarás!",
+        ":ocean:",
         "..."
       ],
       "seguent": [],
@@ -793,12 +794,12 @@
       "end": false
     },
     {
-      "id": 44,
+      "id": 46,
       "text": [
         "D'acord. Millor no el molestem i sortim d'aquí",
         "Està una mica fosc, però crec que podem tornar a la porta sense problemes. Ves amb cura.",
         "Ei! Atenció! :glass_of_milk: No! :boom: Vaja... Has tirat un got que estava a l'esquina de la taula.",
-        "Sembla que fort soroll l'ha despertat"
+        "Sembla que fort soroll l'ha despertat."
       ],
       "seguent": [
         45
@@ -807,10 +808,10 @@
       "end": false
     },
     {
-      "id": 46,
+      "id": 44,
       "text": [
-        "Doncs nem-lo a despertar.",
-        "Tocali l'espat-lla. Suaument, només cal que es desperti.",
+        "Doncs anem-lo a despertar.",
+        "Tocali l'espat-lla. Suaument, només cal que s'adoni que estàs aqui.",
         "S'està girant. Has aconseguit despertar-lo."
       ],
       "seguent": [45],
@@ -852,9 +853,10 @@
     {
       "id": 47,
       "text": [
-        "Hem arribat al refugi. Sembla que per les tempestes els arbres caiguts han acabant sent un sostre natural.",
+        "Hem arribat a un petit refugi. Sembla que per les tempestes els arbres caiguts han acabant sent fent sostre natural.",
         "Hi ha restes de fusta que poden resultar molt útils per alguna mena de construcció.",
         "Sens dubte hauries d'aprofitar aquestos recursos naturals, podría ser la teva salvació.",
+        "Podries fer una cabanya on viure o fins i tot una barca on escapar de l'illa.",
         "Correspon a tu decidir, què construiràs amb la fusta?"
       ],
       "seguent": [48, 52],
@@ -875,20 +877,17 @@
       "buttons": [
         "Cabanya on viure",
         "Barca on escapar"
-      ]
+      ],
+      "end": false
     },
     {
       "id": 48,
       "text": [
         "D'acord! Construirem una cabanya molt maca!",
-        "Comença per agafar aquells dos trossos de fusta.",
-        ":clock12:",
-        "Ara junta això amb allò i alça una paret.",
-        ":clock3:",
-        "Uff. Si que cansa això :tired_face:",
-        ":clock5:",
-        "Ànims! Que encara queda molt!",
-        ":clock8:",
+        "Comença per agafar aquells dos trossos de fusta :clock12:",
+        "Ara junta això amb allò i alça una paret :clock3:",
+        "Uff. Si que cansa això :tired_face: :clock5:",
+        "Ànims! Que encara queda molt! :clock8:",
         "Mira la hora que és! Dins de poc es farà fosc, i durant la nit fa molt de fred a la costa.",
         "No ens donarà temps d'acabar la cabanya, però hem de decidir com afrontar la nit.",
         "Podem acabar de construir el llit o encendre un foc per aguantar millor el fred. Què opines?"
@@ -925,7 +924,8 @@
         "S'està apropant... un ser viu",
         "Que? :fearful:",
         "És un...",
-        "Un tigre :tiger: t'ataca... Caus desplomat..."
+        ":tiger:",
+        "Un tigre t'ataca... Caus desplomat..."
       ],
       "seguent": [],
       "key_words": [],
@@ -949,12 +949,9 @@
       "id": 53,
       "text": [
         "Anem a buscar dos trossos de fusta ben llargs. Ens han de servir de rems, així que si tenen un extrem més gruixut encara millor",
-        "Sí, aquest podria valer. Segueix buscant.",
-        ":clock4:",
-        "Molt bé! Ja tenim els rems. Ara toca retorcar-los una mica.",
-        ":clock6:",
-        "Això ja estaria. Continuem amb la següent tasca.",
-        ":clock8:"
+        "Sí, aquest podria valer. Segueix buscant :clock4:",
+        "Molt bé! Ja tenim els rems. Ara toca retorcar-los una mica :clock6:",
+        "Això ja estaria. Continuem amb la següent tasca :clock8:"
       ],
       "seguent": [55],
       "key_words": [],
@@ -964,12 +961,9 @@
       "id": 54,
       "text": [
         "Anem a buscar uns quants trossos de fusta allargatss. Si vols estar espaiat has de fer una base llarga.",
-        "Sí, aquest tros podria valer. Ara junta-ho amb aquest altre.",
-        ":clock4:",
-        "Molt bé! Ja tenim la part central. Continua amb els costats de la base. Necesistem un altre tipus de fusta.",
-        ":clock6:",
-        "Això ja estaria. Continuem amb la següent tasca.",
-        ":clock8:"
+        "Sí, aquest tros podria valer. Ara junta-ho amb aquest altre. :clock4:",
+        "Molt bé! Ja tenim la part central. Continua amb els costats de la base. Necesistem un altre tipus de fusta. :clock6:",
+        "Això ja estaria. Continuem amb la següent tasca. :clock8:"
       ],
       "seguent": [55],
       "key_words": [],
@@ -983,7 +977,7 @@
         "Segurament amb una mica més de fusta es podria reforçar la barca i fer-la més robusta.",
         "Però ja és pràcticament de nit, i a la costa les nits són molt fredes :cold_face:.",
         "Podríes anarte'n ara de l'illa amb la barca i el mar tranquil, o fins i tot dormir dins de la barca. Les fustes externes són d'un arbre que resisteix molt bé el fred.",
-        "Què hem de fer, abandonar ara l'illa o dormir dins la barca."
+        "Què hem de fer, abandonar ara l'illa o dormir dins la barca?"
       ],
       "seguent": [56, 57],
       "key_words":
@@ -998,7 +992,8 @@
         "Vinga puja! Utilitza els rems per alliberar-te de la sorra. Si senyor! Ja som en plena mar!",
         ":rowboat:",
         ":ocean:",
-        "Oh no! Mira la lluna! :full_moon:",
+        "Oh no! Mira la lluna!",
+        ":full_moon:",
         "Quan hi ha lluna plena puja la marea i el mar es torna un infern!",
         ":ocean:",
         ":wind_blowing_face: :sweat_drops: :rowboat: :sweat_drops:",
@@ -1015,6 +1010,7 @@
       "text": [
         "Està decidit! Ens quedarem dins la barca.",
         "Ves a agafar aquelles fulles de palmera per protegir la barca.",
+        "Ja està, perfecte. Bona feina.",
         "Quina son veritat? :sleeping: Ens hem protegit bé del fred.",
         "Bona nit, demà podràs ... abandonar ... aquesta ... illa ...",
         "Zzz"
@@ -1028,8 +1024,8 @@
       "text": [
         ":sunny:",
         "Bon dia! Ja ha sortit el sol!.",
-        "La mar sembla estar molt tranquila. Pot ser la barca està llesta en aquestes condicions.",
-        "Però si vols assegurar-te es poder fer encara millores, depèn de tu.",
+        "La mar sembla estar molt tranquila. Pot ser la barca estigui llesta en aquestes condicions.",
+        "Però si vols assegurar-te es poden fer encara millores, depèn de tu.",
         "Vols sortir ara o millorar la barca?"
       ],
       "seguent": [60,59],
@@ -1039,16 +1035,20 @@
       "end": false
     },
     {
-      "id": 60,
+      "id": 59,
       "text": [
-        ""
+        "Vale, ara toca fer la barca més robusta. Agafa aquest tipus de fusta per la proa.",
+        "Molt bé. Ara necessitaràs aquesta per la popa i ambdós costats.",
+        "Perfecte. També estaria bé encaixar el rems per evitar que es caiguin a l'aigua.",
+        ":clock1: :clock2: :clock3:",
+        "Genial! Ja està tot llest. Quan vuiguis pots marxar! :hugging:"
       ],
       "seguent": [71],
       "key_words": [],
       "end": false
     },
     {
-      "id": 59,
+      "id": 60,
       "text": [
         "Molt bé ens anem d'aquí!",
         "Ho tens tot? Segur? Doncs porta la barca a la vorera del mar :rowboat:.",
@@ -1079,11 +1079,302 @@
     {
       "id": 63,
       "text": [
-        "Així que vols abandonar l'illa eh!"
+        "Així que vols abandonar l'illa eh! Al estar en una illa només et queda sortir per mar.",
+        "Doncs ara toca construir una barca. Si vols aprofitar les bocanades de temps a favor teu millor que tingui veles.",
+        "L'objectiu està clar :sailboat:!"
+      ],
+      "seguent": [64],
+      "key_words": [],
+      "end": false
+    },
+    {
+      "id": 64,
+      "text": [
+        "Els elements més importants són la base de la barca i el màstil que subjectarà les veles.",
+        "Primer hem de priorizar les tasques.",
+        "Que farem primer: "
+      ],
+      "seguent": [65, 68],
+      "key_words": [
+        "base", "barca",
+        "cerc", "màstil"
+      ],
+      "photos": [
+        {
+          "path": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSso-BM_Txq4MRjeDd0o2UBYECITwRO_CKnn8wWd7W-P5ZHCluV&usqp=CAU",
+          "caption": "Base de la barca"
+        },
+        {
+          "path": "https://cloud10.todocoleccion.online/playmobil/tc/2014/01/19/08/41070026.jpg",
+          "caption": "Cercar un màstil"
+        }
+      ],
+      "buttons": [
+        "Base de la barca",
+        "Cercar un màstil"
+      ],
+      "end": false
+    },
+    {
+      "id": 65,
+      "text": [
+        "Anem a buscar uns quants trossos de fusta allargatss. Si vols estar espaiat has de fer una base llarga.",
+        "Sí, aquest tros podria valer. Ara junta-ho amb aquest altre.",
+        ":clock4:",
+        "Molt bé! Ja tenim la part central. Continua amb els costats de la base. Necesistem un altre tipus de fusta.",
+        ":clock6:",
+        "Això ja estaria. Continuem amb la següent tasca.",
+        ":clock8:"
+      ],
+      "seguent": [66],
+      "key_words": [],
+      "end": false
+    },
+    {
+      "id": 68,
+      "text": [
+        "Anem a buscar un tros de fusta ben llarg i robust. Si ha de ser el màstil et faràs una idea del que necessitem.",
+        "Sí, aquest tros podria valer. Bonna idea! :clock4:",
+        "Molt bé! Ara fem una base per el màstil, pensa que serà el centre del vaixell. :clock6:",
+        "Això ja estaria. Continuem amb la següent tasca. :clock8:"
+      ],
+      "seguent": [66],
+      "key_words": [],
+      "end": false
+    },
+    {
+      "id": 66,
+      "text": [
+        "Molt bé ja hem acabat la base i el màstil està llest.",
+        "Ara només queden les veles. Podrien servir unes fulles específiques. Però l'arbre en qüestió :deciduous_tree: es troba dins la selva i hi ha molts animals al voltant",
+        "Epa! Mira per allí, sembla que algú està sortint de la cabanya construida. Segurament sigui l'home que l'ha construit i l'utilitza com a casa!",
+        "Què n'opines, creus que pots apanyar-te sol amb buscant aquelles fulles o vols demanar ajuda a l'amic de la cabanya?"
+      ],
+      "seguent": [67, 69],
+      "key_words":
+      ["apany", "full",
+      "ajuda","amic"],
+      "end": false
+    },
+    {
+      "id": 67,
+      "text": [
+        "Així que penses que pots apanyar-te-las tot solet. Molt bé m'agrada el teu esperit!",
+        "Les fulles que necessites es troben en aquella direcció :arrow_right: :deciduous_tree:",
+        "Ves amb mil ulls, la flora és molt densa.",
+        "Oh mira! Uns micos :monkey: :monkey:",
+        "Un s'apropa a nosaltres.",
+        ":monkey:",
+        "S'ha enfadat!",
+        ":rage:",
+        "Corre! Són micos enrabiats! Creuen que vols indavir el seu territori!",
+        ":runner:"
       ],
       "seguent": [],
       "key_words": [],
       "end": true
+    },
+    {
+      "id": 69,
+      "text": [
+        "Bona elecció! Segur que aquella persona ens ajuda!",
+        ":runner:",
+        "Explica-li que necessites algun material per fer una vela per una barca.",
+        ":thinking:",
+        "Té una idea! Ens diu de seguir-lo dins de la seva cabanya :house_with_garden:",
+        ":bed:",
+        "Ens ofereix les sabanes del seu llit! És una idea prodigiosa! Són un material perfecte per el que necessitem!"
+      ],
+      "seguent": [70],
+      "key_words": [],
+      "end": false
+    },
+    {
+      "id": 70,
+      "text": [
+        "Ara has d'unir les sabanes amb el mastil.",
+        "Ta-dá! Ja tenim la vela que li faltava a la barca! :partying_face:",
+        "Doncs ja està tot llest. Quan vuiguis pots marxar."
+      ],
+      "seguent": [71],
+      "key_words": [],
+      "end": false
+    },
+    {
+      "id": 71,
+      "text": [
+        "Arrastra la barca cap a la vorera del mar. Has agafat tot el que sigui imprescindible oi?",
+        "Doncs som-hi! Donali una espenta a la barca i puja d'un salt!",
+        "Si senyor! Quina agilitat felina!",
+        "Aqui ens despedim amic, que tinguis un bon retorn a casa! :wave: :grinning:"
+      ],
+      "seguent": [],
+      "key_words": [],
+      "end": true
+    },
+    {
+      "id": 72,
+      "text": [
+        "Perfecte, doncs anem en busca de recursos per l'illa.",
+        "En primer lloc, anirem per la platja a veure si trobem una mica de fusta i algun tipo de menjar.",
+        "Estem per la platja, corre una brisa marina molt relaxant, t'oblides de tot el que ha passat i desconectes una mica.",
+        "Seguim sense trobar res, caminem fins que trobem una cova, allà potser hi ha algun tipo de recurs.",
+        "Doncs, que vols fer entrar a la cova o seguir anem per un altre lloc?"
+      ],
+      "seguent": [73, 75],
+      "key_words": ["cova", "entr", "lloc", "altre"],
+      "end": false
+    },
+    {
+      "id": 73,
+      "text": [
+        "Perfecte, entrem a la cova.",
+        "Tot esta molt fosc i no es veu res.",
+        "No tenim cap tipus de material per il•luminar la cova.",
+        "Que vols fer seguir explorant la cova o marxar?"
+      ],
+      "seguent": [74, 75],
+      "key_words": ["cova", "exp", "mar", "marxar"],
+      "photos": [
+        {
+          "path": "https://image.freepik.com/vector-gratis/escena-fondo-cueva-rocosa-oscura_43633-6704.jpg",
+          "caption": "Cova de la platja"
+        }
+      ],
+      "end": false
+    },
+    {
+      "id": 74,
+      "text": [
+        "Doncs seguim cap a dins la cova.",
+        "És comença a escoltar uns sorolls molt extranys, i apareixen tot tipus d'animals salvatjes.",
+        "NOOO, no pot ser un os gegant, CORREEE!! :scream:",
+        "Ja es massa tard no podem escapar..",
+        "Aqui arriba el nostre final."
+      ],
+      "seguent": [],
+      "key_words": [""],
+      "end": true
+    },
+    {
+      "id": 75,
+      "text": [
+        "Al final has decidint no endinsar-te a la cova, ha sigut la millor eleció possible que podies fer!!.",
+        "Allà dins viu un ós gegant amb molts més animals.. No haguessim sortit vius!! :scream:",
+        "Doncs seguim una mica més per la platja, si no torbem res, anirem cap a la bora de la selva però sense entrar a dins, que es molt perillos.",
+        "Mira!! Aquí i han uns quants cocos, agafem-los!!",
+        "Que has menjat bé? Fas bona cara, s'et veu amb més energia!!",
+        "Si tens més gana podem probar d'escalat aquestes palmeres a veure si trobem algun coco més, que et sembla?",
+        "Vols pujar a agafar més cocos o seguim endavnt?"
+      ],
+      "seguent": [76, 77],
+      "key_words": ["pujar", "cocos", "seg", "endavant"],
+      "end": false
+    },
+    {
+      "id": 76,
+      "text": [
+        "Pues pujem a agafar més cocos!!! Serà una mica difícil que ho sapigues!",
+        "Que bé! Ja estas arribant adalt de tot casi, segueix així",
+        "Acabem d'arribar a dalt de tot i no hem trobat res, quina mala sort..",
+        "Qué es aques soroll? NOO NOO pot ser :scream:",
+        "Ens han vist uns babuinos, no tenim escapatòria",
+        "S'estan apropant..",
+        "Els tenim a sobre.. ja venen... NO!!!",
+        "Ha sigut un plaer coneixeee...."
+      ],
+      "seguent": [],
+      "key_words": [""],
+      "end": true
+    },
+    {
+      "id": 77,
+      "text": [
+        "No estem trobant res, haurem d'endinsar-nos una mica dins la selva",
+        "Si no entrem molt cap a dins no sera perillós, a veure si trobem una mica de fusta per poder fer algun invent interesant!",
+        "Que bonic és el sroll de la selva eh, que en penses?",
+        "S'escolten tota mena d'animals, em relaxa molt",
+        "A tot això, ja portem molta estona caminant i no trobem res..",
+        "Ah mira, allà crec que podrem trobar algo, es una base abandonada de ves-hi a saber de qui.",
+        "Que vols fer? Anem a investigar la base abandonada o seguim caminant?"
+      ],
+      "seguent": [78, 82],
+      "key_words": ["invest", "base", "cam", "seg"],
+      "end": false
+    },
+    {
+      "id": 78,
+      "text": [
+        "Mira ja ens estem apropant, tot sembla segur.",
+        "Seguim no? No tenim res a perdre tampoc.",
+        "Ja hem arribat, hi ha tota mena de materials, pots agafar tot el que creguis necessari."
+      ],
+      "seguent": [79],
+      "key_words": [""],
+      "photos": [
+        {
+          "path": "https://us.123rf.com/450wm/subjob/subjob1708/subjob170800232/84508729-gr%C3%A1fico-decorativo-tur%C3%ADstico-carpa-de-dibujos-animados-aislado-entre-las-palmeras-camping-en-la-naturale.jpg?ver=6",
+          "caption": "Campament abandonat"
+        }
+      ],
+      "end": false
+    },
+    {
+      "id": 79,
+      "text": [
+        "També hi ha una llança, crec que ens podría ser útil.",
+        "Vols agafar la llança?"
+      ],
+      "seguent": [80, 81],
+      "key_words": ["si", "s", "no", "n"],
+      "end": false
+    },
+    {
+      "id": 80,
+      "text": [
+        "Vigila, noto una presencia rara, pot ser que el campament no estigui abandonat o passi una tribu aprop d'aquí, no fem soroll a veure si no ens senten.",
+        "Estigues quiet i no fagis soroll.",
+        "S'estan apropant.. segueix quiet!! :scream:",
+        "ACHISSSS!!",
+        "Noo, ho sento no m'he pogut aguantar..",
+        "Ja ens han vist, estan venint!!",
+        "Hem pogut agafar la llança, intentem defensar-nos!",
+        "Aqui venen!! Ataca!",
+        "Molt bé! Ho has aconseguit!"
+      ],
+      "seguent": [82],
+      "key_words": [""],
+      "end": false
+    },
+    {
+      "id": 81,
+      "text": [
+        "Vigila, noto una presencia rara, pot ser que el campament no estigui abandonat o passi una tribu aprop d'aquí, no fem soroll a veure si no ens senten.",
+        "Estigues quiet i no fagis soroll.",
+        "S'estan apropant.. segueix quiet!!",
+        "ACHISSSS!!",
+        "Noo, ho sento no m'he pogut aguantar..",
+        "Ja ens han vist, estan venint!!",
+        "No hem pogut agafar la llança, no tenim res a fer",
+        "Aquesta tribu es una tribu salvatge no ens deixara vius..",
+        "Aquí s'acaba el nostre viatge.."
+      ],
+      "seguent": [],
+      "key_words": [""],
+      "end": true
+    },
+    {
+      "id": 82,
+      "text": [
+       "Bueno anem a seguir caminant a veure si trobem algun material o algo de menjar!",
+        "Ens podem estar hores i hores buscant i no trobar res, aquesta illa és molt especial",
+        "Pero bueno anem a seguir buscant, o sino també ens podem endinsar a la selva allà segur que trobarem moltes més coses!",
+        "Que et sembla?",
+        "Crec que no ens queda més opció que anar a dins la selva o si nó tornar cap a la costa"
+      ],
+      "seguent": [3, 31],
+      "key_words": ["selva", "dins", "costa", "tornar"],
+      "end": false
     }
   ]
 }
