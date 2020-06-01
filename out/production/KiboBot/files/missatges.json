@@ -644,7 +644,7 @@
       "id": 33,
       "text": [
         "Agites la palmera més gran de totes amb força.",
-        "Estan caiguent uns cocos enormes!",
+        "Estan caient uns cocos enormes!",
         "Ves amb cura no et facis mal!",
         "Sembla que cauen aleatòriament, et quedes quiet o intentes esquivar-los?"
 
@@ -876,8 +876,8 @@
       "text": [
         "Desperta! Ja ha sortit el sol :sunny:!",
         "Que bé se sent al descansar en un bon llit eh :laughing:!",
-        "Vale, ha arribat el moment decisiu.",
-        "Què vols fer, abandonar l'illa o quedar-t'hi una temporada"
+        "Molt bé, ha arribat el moment decisiu.",
+        "Què vols fer, abandonar l'illa o quedar-t'hi una temporada?"
       ],
       "seguent": [63,61],
       "key_words":
@@ -921,11 +921,11 @@
       "text": [
         "D'acord! Construirem una cabanya molt maca!",
         "Comença per agafar aquells dos trossos de fusta :clock12:",
-        "Ara junta això amb allò i alça una paret :clock3:",
+        "Ara ajunta això amb allò i alça una paret :clock3:",
         "Uff. Si que cansa això :tired_face: :clock5:",
         "Ànims! Que encara queda molt! :clock8:",
-        "Mira la hora que és!",
-        "D'aquí poc es farà fosc, i durant la nit fa molt de fred a la costa.",
+        "Mira l'hora que és!",
+        "D'aquí poc es farà fosc, i durant la nit fa molt fred a la costa.",
         "No tindrem temps d'acabar la cabanya, però hem de decidir com afrontar la nit. Podem acabar de construir el llit o encendre un foc per aguantar millor el fred. Què opines?"
       ],
       "seguent": [49,51],
@@ -939,12 +939,13 @@
       "text": [
         "Vinga doncs!",
         "Que un llit el construim en un pis pas :muscle:!",
-        ":clock10",
+        ":clock10:",
         "Ja està el llit :bed:.",
         "Agafa aquelles fulles.",
-        "Són molt espeses, provenen d'un arbre enorme.",
-        "Segur que et serveixen per aillar-te del fred.",
-        "Ja ho tenim tot. Demà serà un dia important, a dormir :sleeping:. ",
+        "Són molt espesses, provenen d'un arbre enorme.",
+        "Segur que et serveixen per aïllar-te del fred.",
+        "Ja ho tenim tot.",
+        "Demà serà un dia important, a dormir :sleeping:. ",
         "..."
       ],
       "seguent": [50],
